@@ -1,0 +1,112 @@
+.projecto {
+  background: url(../images/bg-projecto.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+.projecto .contato {
+  background-color: rgba(252, 250, 247, 0.8);
+  border-radius: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 85%;
+}
+
+.projecto .contato h5 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+  color: #000000;
+  text-transform: uppercase;
+  margin: 0 0 5px 0;
+}
+
+.projecto .contato .form-group {
+  margin-bottom: 10px;
+}
+
+.projecto .contato .form-control {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  height: 40px;
+  padding: 10px 12px;
+  font-size: 16px;
+  line-height: 1.42857143;
+  color: #595959;
+  background-color: #c2c2c2;
+  border: 0px solid transparent;
+  border-radius: 20px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.projecto .contato .form-control::-webkit-input-placeholder {
+  color: #595959;
+}
+
+.projecto .contato .form-control:-ms-input-placeholder {
+  color: #595959;
+}
+
+.projecto .contato .form-control::-ms-input-placeholder {
+  color: #595959;
+}
+
+.projecto .contato .form-control::placeholder {
+  color: #595959;
+}
+
+.projecto .contato textarea {
+  height: 60px !important;
+}
+
+.projecto .contato .checkbox {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  color: #595959;
+  padding-left: 20px;
+}
+
+.projecto .btn_enviar {
+  background: url(../images/btn-contato.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 150px;
+  height: 40px;
+  padding: 6px 15px;
+  border: 0px solid transparent;
+  border-radius: 0px;
+  float: right;
+  margin: -23px 0 0 0;
+}
+
+.projecto .homem img {
+  margin-top: 25%;
+}
+
+/* Extra Small */
+@media (max-width: 767px) {
+  .projecto {
+    background: url(../images/bg-projecto-mobile.jpg);
+    background-size: cover;
+    background-position: center center;
+    padding-bottom: 35px;
+  }
+  .projecto .contato {
+    background-color: rgba(252, 250, 247, 0.8);
+    margin-top: 85%;
+  }
+  .projecto .contato h5 {
+    font-size: 16px;
+    line-height: 16px;
+  }
+}
+
+/* Small */
+/* Medium */
+/* Large */
+/*# sourceMappingURL=projecto.css.map */
