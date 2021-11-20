@@ -145,7 +145,7 @@
   background: url(../images/bg-lotes2.jpg) no-repeat;
   background-size: cover;
   background-position: center bottom;
-  padding-bottom: 150px;
+  padding-bottom: 110px;
 }
 
 .galeria-mulher .box-lotes .lotes {
@@ -232,6 +232,7 @@
   }
   .galeria-mulher {
     padding-top: 20px;
+    padding-bottom: 30px;
   }
   .galeria-mulher .galeria {
     margin-top: 10px;
@@ -257,7 +258,7 @@
     margin-top: 0px;
   }
   .galeria-mulher .box-lotes .cta {
-    margin-top: 20px;
+    margin-top: 30px;
   }
 }
 

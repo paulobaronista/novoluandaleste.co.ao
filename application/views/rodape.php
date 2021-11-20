@@ -1,4 +1,4 @@
-<!-- <footer>
+<footer>
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 padding-off">
@@ -7,6 +7,11 @@
                     <li><a href="<?php echo base_url(); ?>politicadecookies">Termos e Condições de Uso do Site</a></li>
                 </ul>
             </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 text-center">
+                <p>
+                    © 2021. Todos direitos reservados a <strong>AFRINCORP</strong>.
+                </p>
+            </div>
         </div>
     </div>
-</footer> -->
+</footer>

@@ -209,10 +209,10 @@
                 <div class="galeria">
                     <section class="glr-produto slider">
                         <div>
-                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/galeria-homem-01.jpg" alt="Novo Luanda Leste">
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/galeria-mulher-01.jpg" alt="Novo Luanda Leste">
                         </div>
                         <div>
-                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/galeria-homem-01.jpg" alt="Novo Luanda Leste">
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/galeria-mulher-01.jpg" alt="Novo Luanda Leste">
                         </div>
                     </section>
                 </div>
@@ -247,9 +247,81 @@
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
                     <a class="cta btn" href="https://www.hstkfiles.com.br/seed/slider/Planta.pdf" target="_blank">
-                      <span>CLIQUE AQUI</span> E BAIXE NOSSA PLANTA
+                        <span>CLIQUE AQUI</span> E BAIXE NOSSA PLANTA
                     </a>
                 </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid padding-off crystal-lagoons">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 text-center">
+                <p class="txt1">
+                    CONHEÇA O COMPLEXO QUE É <span>SUCESSO NO MUNDO TODO</span>.
+                </p>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 text-center">
+                <img class="img-responsive center-block img-crystal-lagoons" src="<?= base_url(); ?>assets/images/crystal-lagoons.png" alt="Novo Luanda Leste">
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
+                <div class="box-video">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/N1kTP7dai4M"></iframe>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 text-center">
+                <p class="txt2">
+                    UMA DESLUMBRANTE PRAIA ARTIFICIAL BY <span>CRYSTAL LAGOONS</span><sup>®</sup><br />
+                    NO CORAÇÃO DO PROJECTO, COM <span>POTENCIAL ATRATIVO</span> PARA<br />
+                    <span>2 MILHÕES DE PESSOAS</span> POR ANO
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid padding-off afrincorp">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
+                <img class="img-responsive hidden-xs" src="<?= base_url(); ?>assets/images/afrincorp.jpg" alt="Afrincorp">
+                <img class="img-responsive visible-xs" src="<?= base_url(); ?>assets/images/afrincorp-mobile.jpg" alt="Afrincorp">
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2 text-center">
+                <p>
+                    Desde 2009, a <span>Afrincorp Empreendimentos</span> actua no mercado angolano com
+                    projectos que oferecem um conceito de natureza, qualidade de vida e bem-estar
+                    da família e também do seu negócio. Agora traz o <span>Luanda Leste</span>, uma
+                    nova região encantadora, com um polo comercial que vai transformar a vida de
+                    quem vive, visita ou investe em Luanda.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid padding-off endereco">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2 text-center">
+                <p class="txt1">
+                    <span>VENHA CONHECER</span> ESTE GRANDE PROJETO OU<br />
+                    <span>AGENDE COM NOSSOS ESPECILISTAS</span> UMA APRESENTAÇÃO EXCLUSIVA
+                </p>
+                <span class="box">
+                    <p class="txt2">
+                        <span>Escritório central:</span><br />
+                        Rua 21, nº 697 Urbanização - Nova Vida - Luanda - Angola
+                    </p>
+                </span>
+                <p class="txt3">
+                    <span>Faça parte</span> da construção dessa nova centralidade planeada<br />
+                    <span>e transforme a vida de quem vive, visita</span> e <span>investe</span> em Luanda.
+                </p>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
+                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/familia.png" alt="Familia">
             </div>
         </div>
     </div>
@@ -261,50 +333,9 @@
 
 
 
-<!-- 
-<img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/Spicycomm_Afrincorp_LuandaLeste_LandingPage_v4.jpg" alt="Novo Luanda Leste">
-
- -->
 
 
 
-
-
-<!-- 
-<div id="home" class="container-fluid padding-off home">
-    <div class="galeria">
-        <section class="glr-home slider">
-            <div>
-                <img class="img-responsive center-block hidden-xs" src="<?= base_url(); ?>assets/images/Galeria_01.jpg" alt="Novo Luanda Leste">
-                <img class="img-responsive center-block visible-xs" src="<?= base_url(); ?>assets/images/Galeria_mobile_01.jpg" alt="Novo Luanda Leste">
-            </div>
-            <div>
-                <a class="scrollink" href="#receitas">
-                    <img class="img-responsive center-block hidden-xs" src="<?= base_url(); ?>assets/images/Galeria_02.jpg" alt="Novo Luanda Leste">
-                </a>
-                <a class="scrollink" href="#receitas">
-                    <img class="img-responsive center-block visible-xs" src="<?= base_url(); ?>assets/images/Galeria_mobile_02.jpg" alt="Novo Luanda Leste">
-                </a>
-            </div>
-            <div>
-                <img class="img-responsive center-block hidden-xs" src="<?= base_url(); ?>assets/images/Galeria_03.jpg" alt="Novo Luanda Leste">
-                <img class="img-responsive center-block visible-xs" src="<?= base_url(); ?>assets/images/Galeria_mobile_03.jpg" alt="Novo Luanda Leste">
-            </div>
-            <div>
-                <img class="img-responsive center-block hidden-xs" src="<?= base_url(); ?>assets/images/Galeria_04.jpg" alt="Novo Luanda Leste">
-                <img class="img-responsive center-block visible-xs" src="<?= base_url(); ?>assets/images/Galeria_mobile_04.jpg" alt="Novo Luanda Leste">
-            </div>
-            <div>
-                <img class="img-responsive center-block hidden-xs" src="<?= base_url(); ?>assets/images/Galeria_05.jpg" alt="Novo Luanda Leste">
-                <img class="img-responsive center-block visible-xs" src="<?= base_url(); ?>assets/images/Galeria_mobile_05.jpg" alt="Novo Luanda Leste">
-            </div>
-            <div>
-                <img class="img-responsive center-block hidden-xs" src="<?= base_url(); ?>assets/images/Galeria_06.jpg" alt="Novo Luanda Leste">
-                <img class="img-responsive center-block visible-xs" src="<?= base_url(); ?>assets/images/Galeria_mobile_06.jpg" alt="Novo Luanda Leste">
-            </div>
-        </section>
-    </div>
-</div> -->
 
 
 

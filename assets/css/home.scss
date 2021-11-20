@@ -73,6 +73,104 @@
 }
 
 
+.crystal-lagoons {
+    background-color: #d5d5d5;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    p {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        color: #444444;
+        text-transform: uppercase;
+
+        span {
+            font-weight: 700;
+        }
+    }
+
+    .txt1 {
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 10px;
+    }
+
+    .txt2 {
+        font-size: 15px;
+        line-height: 21px;
+        color: #4ea7bc;
+        margin-top: 15px;
+        letter-spacing: 1px;
+    }
+
+    .img-crystal-lagoons {
+        margin-bottom: -24px;
+        z-index: 100;
+        position: relative;
+    }
+}
+
+.afrincorp {
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    img {
+        margin-bottom: 20px;
+    }
+
+    p {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        color: #000000;
+        font-size: 17px;
+        line-height: 24px;
+
+        span {
+            font-weight: 700;
+        }
+    }
+}
+
+.endereco {
+    background: url(../images/bg-endereco.jpg) no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+    padding-top: 40px;
+
+    p {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        color: #444444;
+        font-size: 17px;
+        line-height: 24px;
+        text-transform: uppercase;
+
+        span {
+            font-weight: 700;
+        }
+    }
+
+    .box {
+        border: 2px solid #444444;
+        display: table;
+        padding: 10px 25px;
+        margin: 0 auto;
+    }
+
+    .txt1 {
+        margin-bottom: 20px;
+    }
+
+    .txt3 {
+        margin-top: 20px;
+    }
+
+    img {
+        margin-top: 10px;
+    }
+}
+
+
 /* Extra Small */
 @media(max-width:767px) {
     .contato {
@@ -82,6 +180,60 @@
         h5 {
             font-size: 16px;
             line-height: 16px;
+        }
+    }
+
+    .crystal-lagoons {
+        padding-top: 20px;
+        padding-bottom: 20px;
+
+        .txt1 {
+            font-size: 18px;
+            line-height: 28px;
+            margin-bottom: 10px;
+        }
+
+        .txt2 {
+            font-size: 13px;
+            line-height: 18px;
+            margin-top: 15px;
+        }
+
+        .img-crystal-lagoons {
+            margin-bottom: -15px;
+            max-width: 70%;
+        }
+    }
+
+    .afrincorp {
+        padding-top: 30px;
+        padding-bottom: 30px;
+
+        img {
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 15px;
+            line-height: 20px;
+            text-align: left;
+        }
+    }
+
+    .endereco {
+        background: url(../images/bg-endereco-mobile.jpg) no-repeat;
+        background-position: center bottom;
+        background-size: cover;
+        padding-top: 30px;
+
+        p {
+            font-size: 14px;
+            line-height: 24px;
+        }
+
+        img {
+            max-width: 80%;
+            margin-top: 10px;
         }
     }
 }

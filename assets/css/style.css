@@ -681,6 +681,103 @@ p {
   margin: -23px 0 0 0;
 }
 
+.crystal-lagoons {
+  background-color: #d5d5d5;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.crystal-lagoons p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color: #444444;
+  text-transform: uppercase;
+}
+
+.crystal-lagoons p span {
+  font-weight: 700;
+}
+
+.crystal-lagoons .txt1 {
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 10px;
+}
+
+.crystal-lagoons .txt2 {
+  font-size: 15px;
+  line-height: 21px;
+  color: #4ea7bc;
+  margin-top: 15px;
+  letter-spacing: 1px;
+}
+
+.crystal-lagoons .img-crystal-lagoons {
+  margin-bottom: -24px;
+  z-index: 100;
+  position: relative;
+}
+
+.afrincorp {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.afrincorp img {
+  margin-bottom: 20px;
+}
+
+.afrincorp p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color: #000000;
+  font-size: 17px;
+  line-height: 24px;
+}
+
+.afrincorp p span {
+  font-weight: 700;
+}
+
+.endereco {
+  background: url(../images/bg-endereco.jpg) no-repeat;
+  background-position: center bottom;
+  background-size: cover;
+  padding-top: 40px;
+}
+
+.endereco p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color: #444444;
+  font-size: 17px;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+.endereco p span {
+  font-weight: 700;
+}
+
+.endereco .box {
+  border: 2px solid #444444;
+  display: table;
+  padding: 10px 25px;
+  margin: 0 auto;
+}
+
+.endereco .txt1 {
+  margin-bottom: 20px;
+}
+
+.endereco .txt3 {
+  margin-top: 20px;
+}
+
+.endereco img {
+  margin-top: 10px;
+}
+
 /* Extra Small */
 @media (max-width: 767px) {
   .contato {
@@ -690,6 +787,50 @@ p {
   .contato h5 {
     font-size: 16px;
     line-height: 16px;
+  }
+  .crystal-lagoons {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .crystal-lagoons .txt1 {
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 10px;
+  }
+  .crystal-lagoons .txt2 {
+    font-size: 13px;
+    line-height: 18px;
+    margin-top: 15px;
+  }
+  .crystal-lagoons .img-crystal-lagoons {
+    margin-bottom: -15px;
+    max-width: 70%;
+  }
+  .afrincorp {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .afrincorp img {
+    margin-bottom: 20px;
+  }
+  .afrincorp p {
+    font-size: 15px;
+    line-height: 20px;
+    text-align: left;
+  }
+  .endereco {
+    background: url(../images/bg-endereco-mobile.jpg) no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+    padding-top: 30px;
+  }
+  .endereco p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .endereco img {
+    max-width: 80%;
+    margin-top: 10px;
   }
 }
 
@@ -843,7 +984,7 @@ p {
   background: url(../images/bg-lotes2.jpg) no-repeat;
   background-size: cover;
   background-position: center bottom;
-  padding-bottom: 150px;
+  padding-bottom: 110px;
 }
 
 .galeria-mulher .box-lotes .lotes {
@@ -930,6 +1071,7 @@ p {
   }
   .galeria-mulher {
     padding-top: 20px;
+    padding-bottom: 30px;
   }
   .galeria-mulher .galeria {
     margin-top: 10px;
@@ -955,7 +1097,7 @@ p {
     margin-top: 0px;
   }
   .galeria-mulher .box-lotes .cta {
-    margin-top: 20px;
+    margin-top: 30px;
   }
 }
 
@@ -971,66 +1113,64 @@ p {
 }
 
 /* Large */
-.projecto {
-  background: url(../images/bg-projecto.jpg) no-repeat;
-  background-size: cover;
-  background-position: center bottom;
-  padding-top: 40px;
-  padding-bottom: 60px;
+footer {
+  background-color: #f5a638;
+  padding-bottom: 13px;
+  padding-top: 13px;
+  border-bottom: solid 15px #f14e4e;
 }
 
-.projecto .tt-1 p {
+footer img,
+footer p {
+  display: inline-table !important;
+}
+
+footer p {
   font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
-  font-size: 25px;
-  line-height: 33px;
-  color: #000000;
-  text-transform: uppercase;
+  font-weight: 500;
+  color: #f14e4e;
+  font-size: 13px;
+  line-height: 13px;
 }
 
-.projecto .tt-1 p span {
-  font-weight: 700;
+footer .navbar-nav {
+  margin: 0 auto;
+  display: table;
+  float: none;
 }
 
-.projecto .tt-2 {
-  background-color: rgba(0, 0, 0, 0.6);
-  padding-top: 10px;
-  padding-bottom: 10px;
+footer .navbar-nav li {
+  padding-top: 7px;
+  padding-bottom: 7px;
 }
 
-.projecto .tt-2 p {
+footer .navbar-nav li > a {
+  padding-top: 0px;
+  padding-bottom: 0px;
   font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 23px;
-  color: #ffffff;
-  text-transform: uppercase;
+  font-weight: 500;
+  font-style: normal;
+  color: #f14e4e;
+  font-size: 13px;
+  line-height: 13px;
+  border-right: 1px solid #f14e4e;
+  text-align: center;
 }
 
-.projecto .tt-2 p span {
-  font-weight: 700;
+footer .navbar-nav li > a:focus,
+footer .navbar-nav li > a:hover {
+  text-decoration: underline;
+  background-color: transparent;
+}
+
+footer .navbar-nav li:last-child a {
+  border-right: 0px solid transparent;
 }
 
 /* Extra Small */
 @media (max-width: 767px) {
-  .projecto {
-    background: url(../images/bg-projecto-mobile.jpg) no-repeat;
-    background-size: cover;
-    background-position: center top;
-    padding-top: 30px;
-    padding-bottom: 40px;
-  }
-  .projecto .tt-1 p {
-    font-size: 16px;
-    line-height: 26px;
-  }
-  .projecto .tt-2 {
-    padding-top: 10px;
-    padding-bottom: 10px;
-  }
-  .projecto .tt-2 p {
-    font-size: 12px;
-    line-height: 18px;
+  footer .navbar-nav li > a {
+    border-right: 0px solid transparent;
   }
 }
 
