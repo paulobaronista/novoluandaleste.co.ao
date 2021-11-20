@@ -1,5 +1,90 @@
+.contato {
+    background-color: rgba(252, 250, 247, 0.8);
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 85%;
+
+    h5 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 18px;
+        color: #000000;
+        text-transform: uppercase;
+        margin: 0 0 5px 0;
+    }
+
+    .form-group {
+        margin-bottom: 10px;
+    }
+
+    .form-control {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        height: 40px;
+        padding: 10px 12px;
+        font-size: 16px;
+        line-height: 1.42857143;
+        color: #595959;
+        background-color: #c2c2c2;
+        border: 0px solid transparent;
+        border-radius: 20px;
+        box-shadow: none;
+
+        &::-webkit-input-placeholder {
+            color: #595959;
+        }
+
+        &:-ms-input-placeholder {
+            color: #595959;
+        }
+
+        &::placeholder {
+            color: #595959;
+        }
+    }
+
+    textarea {
+        height: 60px !important;
+    }
+
+    .checkbox {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 16px;
+        color: #595959;
+        padding-left: 20px;
+    }
+}
+
+.btn_enviar {
+    background: url(../images/btn-contato.png) no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 150px;
+    height: 40px;
+    padding: 6px 15px;
+    border: 0px solid transparent;
+    border-radius: 0px;
+    float: right;
+    margin: -23px 0 0 0;
+}
+
+
 /* Extra Small */
-@media(max-width:767px) {}
+@media(max-width:767px) {
+    .contato {
+        background-color: rgba(252, 250, 247, 0.8);
+        margin-top: 85%;
+
+        h5 {
+            font-size: 16px;
+            line-height: 16px;
+        }
+    }
+}
 
 /* Small */
 @media(min-width:768px) and (max-width:991px) {}

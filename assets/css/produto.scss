@@ -1,0 +1,93 @@
+.produto {
+    background: url(../images/bg-produto.jpg) no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    padding-top: 60px;
+    padding-bottom: 0px;
+    margin-top: -0.4%;
+
+    .tt-1 {
+        p {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 400;
+            font-size: 25px;
+            line-height: 33px;
+            color: #000000;
+            text-transform: uppercase;
+
+            span {
+                font-weight: 700;
+            }
+        }
+    }
+
+    .tt-2 {
+        .box {
+            -webkit-border-top-left-radius: 10px;
+            -webkit-border-top-right-radius: 10px;
+            -moz-border-radius-topleft: 10px;
+            -moz-border-radius-topright: 10px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            background-color: #bfe5ef;
+            padding-top: 15px;
+            padding-bottom: 15px;
+
+            p {
+                font-family: 'Montserrat', sans-serif;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 22px;
+                color: #000000;
+                text-transform: uppercase;
+                padding-top: 5px;
+                padding-bottom: 5px;
+
+                span {
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+}
+
+
+/* Extra Small */
+@media(max-width:767px) {
+    .produto {
+        background: url(../images/bg-produto-mobile.jpg) no-repeat;
+        background-size: cover;
+        background-position: center bottom;
+        padding-top: 30px;
+        margin-top: -1.5%;
+
+        .tt-1 {
+            p {
+                font-size: 15px;
+                line-height: 25px;
+            }
+        }
+
+        .tt-2 {
+            margin-top: 50%;
+            .box {
+                padding-top: 10px;
+                padding-bottom: 10px;
+
+                p {
+                    font-size: 11px;
+                    line-height: 14px;
+                }
+            }
+        }
+    }
+}
+
+/* Small */
+@media(min-width:768px) and (max-width:991px) {}
+
+/* Medium */
+@media(min-width:992px) and (max-width:1199px) {}
+
+/* Large */
+@media(min-width:1200px) {}

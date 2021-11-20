@@ -602,13 +602,7 @@ p {
   }
 }
 
-.projecto {
-  background: url(../images/bg-projecto.jpg);
-  background-size: cover;
-  background-position: center center;
-}
-
-.projecto .contato {
+.contato {
   background-color: rgba(252, 250, 247, 0.8);
   border-radius: 20px;
   padding-top: 20px;
@@ -616,7 +610,7 @@ p {
   margin-top: 85%;
 }
 
-.projecto .contato h5 {
+.contato h5 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   font-size: 18px;
@@ -626,11 +620,11 @@ p {
   margin: 0 0 5px 0;
 }
 
-.projecto .contato .form-group {
+.contato .form-group {
   margin-bottom: 10px;
 }
 
-.projecto .contato .form-control {
+.contato .form-control {
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   height: 40px;
@@ -645,27 +639,27 @@ p {
           box-shadow: none;
 }
 
-.projecto .contato .form-control::-webkit-input-placeholder {
+.contato .form-control::-webkit-input-placeholder {
   color: #595959;
 }
 
-.projecto .contato .form-control:-ms-input-placeholder {
+.contato .form-control:-ms-input-placeholder {
   color: #595959;
 }
 
-.projecto .contato .form-control::-ms-input-placeholder {
+.contato .form-control::-ms-input-placeholder {
   color: #595959;
 }
 
-.projecto .contato .form-control::placeholder {
+.contato .form-control::placeholder {
   color: #595959;
 }
 
-.projecto .contato textarea {
+.contato textarea {
   height: 60px !important;
 }
 
-.projecto .contato .checkbox {
+.contato .checkbox {
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   font-style: normal;
@@ -674,10 +668,9 @@ p {
   padding-left: 20px;
 }
 
-.projecto .btn_enviar {
-  background: url(../images/btn-contato.png);
+.btn_enviar {
+  background: url(../images/btn-contato.png) no-repeat;
   background-position: center center;
-  background-repeat: no-repeat;
   background-size: cover;
   width: 150px;
   height: 40px;
@@ -688,25 +681,159 @@ p {
   margin: -23px 0 0 0;
 }
 
-.projecto .homem img {
-  margin-top: 25%;
+/* Extra Small */
+@media (max-width: 767px) {
+  .contato {
+    background-color: rgba(252, 250, 247, 0.8);
+    margin-top: 85%;
+  }
+  .contato h5 {
+    font-size: 16px;
+    line-height: 16px;
+  }
+}
+
+/* Small */
+/* Medium */
+/* Large */
+.produto {
+  background: url(../images/bg-produto.jpg) no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+  padding-top: 60px;
+  padding-bottom: 0px;
+  margin-top: -0.4%;
+}
+
+.produto .tt-1 p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 33px;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.produto .tt-1 p span {
+  font-weight: 700;
+}
+
+.produto .tt-2 .box {
+  -webkit-border-top-left-radius: 10px;
+  -webkit-border-top-right-radius: 10px;
+  -moz-border-radius-topleft: 10px;
+  -moz-border-radius-topright: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: #bfe5ef;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.produto .tt-2 .box p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #000000;
+  text-transform: uppercase;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.produto .tt-2 .box p span {
+  font-weight: 700;
+}
+
+/* Extra Small */
+@media (max-width: 767px) {
+  .produto {
+    background: url(../images/bg-produto-mobile.jpg) no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    padding-top: 30px;
+    margin-top: -1.5%;
+  }
+  .produto .tt-1 p {
+    font-size: 15px;
+    line-height: 25px;
+  }
+  .produto .tt-2 {
+    margin-top: 50%;
+  }
+  .produto .tt-2 .box {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .produto .tt-2 .box p {
+    font-size: 11px;
+    line-height: 14px;
+  }
+}
+
+/* Small */
+/* Medium */
+/* Large */
+.projecto {
+  background: url(../images/bg-projecto.jpg) no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+
+.projecto .tt-1 p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 33px;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.projecto .tt-1 p span {
+  font-weight: 700;
+}
+
+.projecto .tt-2 {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.projecto .tt-2 p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 23px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.projecto .tt-2 p span {
+  font-weight: 700;
 }
 
 /* Extra Small */
 @media (max-width: 767px) {
   .projecto {
-    background: url(../images/bg-projecto-mobile.jpg);
+    background: url(../images/bg-projecto-mobile.jpg) no-repeat;
     background-size: cover;
-    background-position: center center;
-    padding-bottom: 35px;
+    background-position: center top;
+    padding-top: 30px;
+    padding-bottom: 40px;
   }
-  .projecto .contato {
-    background-color: rgba(252, 250, 247, 0.8);
-    margin-top: 85%;
-  }
-  .projecto .contato h5 {
+  .projecto .tt-1 p {
     font-size: 16px;
-    line-height: 16px;
+    line-height: 26px;
+  }
+  .projecto .tt-2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .projecto .tt-2 p {
+    font-size: 12px;
+    line-height: 18px;
   }
 }
 
