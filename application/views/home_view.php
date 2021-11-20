@@ -143,10 +143,117 @@
         </div>
     </div>
 </div>
-
-
-
-
+<div class="container-fluid padding-off galeria-homem">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                <p class="txt1">
+                    UM LUGAR IDEAL PARA <span>INVESTIR</span> E <span>AMPLIAR SEUS NEGÓCIOS</span>.
+                </p>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2 padding-off-mobile">
+                <div class="galeria">
+                    <section class="glr-produto slider">
+                        <div>
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/galeria-homem-01.jpg" alt="Novo Luanda Leste">
+                        </div>
+                        <div>
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/galeria-homem-01.jpg" alt="Novo Luanda Leste">
+                        </div>
+                    </section>
+                </div>
+                <img class="homem-galeria hidden-xs" src="<?= base_url(); ?>assets/images/homem-galeria.png" alt="Novo Luanda Leste">
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
+                <div class="col-xs-12 col-sm-7 col-md-7 col-lg-7 text-center">
+                    <p class="txt2">
+                        <span>TRAGA SEU NEGÓCIO</span> PARA ESTE NOVO BAIRRO PLANEADO.<br />
+                        UM PROJECTO COM POTENCIAL ATRATIVO PARA<br />
+                        <span>2 MILHÕES DE PESSOAS</span> POR ANO.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid padding-off box-lotes">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 col-lg-offset-1 text-center lotes">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 padding-off-mobile">
+                        <p class="txt1">
+                            LOTES COMERCIAIS DE <span>450</span> A <span>67 MIL M²</span> COM DIREITO DE SUPERFÍCIE
+                        </p>
+                        <p class="txt2">
+                            O <span>Novo Luanda Leste</span> é o local ideal para abrigar empreendimentos comerciais de <br />todos os tamanhos, como <span>hotéis, shoppings, restaurantes, edifícios comerciais,<br />
+                                academias</span> e <span>muito mais</span>.<br />
+                            Imagine sua empresa no entorno de uma deslumbrante praia artificial com aguas <br />cristalinas e areia branca.
+                        </p>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
+                        <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/lotes.png" alt="Novo Luanda Leste">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid padding-off galeria-mulher">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                <p class="txt1">
+                    É HORA DE <span>INVESTIR</span> NA SUA QUALIDADE DE VIDA COM SEGURANÇA
+                </p>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2 padding-off-mobile">
+                <div class="galeria">
+                    <section class="glr-produto slider">
+                        <div>
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/galeria-homem-01.jpg" alt="Novo Luanda Leste">
+                        </div>
+                        <div>
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/galeria-homem-01.jpg" alt="Novo Luanda Leste">
+                        </div>
+                    </section>
+                </div>
+                <img class="mulher-galeria hidden-xs" src="<?= base_url(); ?>assets/images/mulher-galeria.png" alt="Novo Luanda Leste">
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
+                <div class="col-xs-12 col-sm-7 col-md-7 col-lg-7 text-center">
+                    <p class="txt2">
+                        <span>lançamento</span> da segunda fase do<br />
+                        <span>Novo Luanda Leste</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid padding-off box-lotes">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 col-lg-offset-1 text-center lotes">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 padding-off-mobile">
+                        <p class="txt1">
+                            LOTES RESIDENCIAIS DE <span>360</span> A <span>800 M²</span> COM DIREITO DE SUPERFÍCIE
+                        </p>
+                        <p class="txt2">
+                            Construa a casa dos seus sonhos, em uma bairro planeado com <span>grande potencial <br />de valorização</span> e <span>infraestrutura</span> que vai facilitar seu dia-a-dia.<br />
+                            Imagine sua casa no entorno da exclusiva lagoa artificial by <span>CRYSTAL LAGOONS</span><sup>®</sup>, <br />com águas calmas e cristalinas e areia branca, que vai garantir <span>mais diversão</span> e <br /><span>bem estar para toda a família</span>.
+                        </p>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
+                        <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/lotes2.png" alt="Novo Luanda Leste">
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                    <a class="cta btn" href="https://www.hstkfiles.com.br/seed/slider/Planta.pdf" target="_blank">
+                      <span>CLIQUE AQUI</span> E BAIXE NOSSA PLANTA
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 
 

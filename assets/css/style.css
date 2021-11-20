@@ -745,6 +745,139 @@ p {
   font-weight: 700;
 }
 
+.galeria-homem {
+  padding-top: 40px;
+  background-color: #d5d5d5;
+}
+
+.galeria-homem p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color: #444444;
+  text-transform: uppercase;
+}
+
+.galeria-homem p span {
+  font-weight: 700;
+}
+
+.galeria-homem .galeria {
+  margin-top: 30px;
+}
+
+.galeria-homem .txt1 {
+  font-size: 22px;
+  line-height: 32px;
+  margin-bottom: 10px;
+}
+
+.galeria-homem .txt2 {
+  margin-top: 15px;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.galeria-homem .homem-galeria {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.galeria-homem .box-lotes {
+  background: url(../images/bg-lotes.jpg) no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+  padding-bottom: 150px;
+}
+
+.galeria-homem .box-lotes .lotes {
+  background-color: #ffffff;
+  padding-top: 30px;
+  padding-bottom: 40px;
+  margin-top: 20px;
+}
+
+.galeria-homem .box-lotes .lotes img {
+  margin-top: 20px;
+}
+
+.galeria-mulher {
+  padding-top: 40px;
+  background-color: #bfe5ef;
+}
+
+.galeria-mulher p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color: #444444;
+  text-transform: uppercase;
+}
+
+.galeria-mulher p span {
+  font-weight: 700;
+}
+
+.galeria-mulher .galeria {
+  margin-top: 30px;
+}
+
+.galeria-mulher .txt1 {
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 10px;
+}
+
+.galeria-mulher .txt2 {
+  margin-top: 15px;
+  font-size: 17px;
+  line-height: 27px;
+}
+
+.galeria-mulher .mulher-galeria {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.galeria-mulher .box-lotes {
+  background: url(../images/bg-lotes2.jpg) no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+  padding-bottom: 150px;
+}
+
+.galeria-mulher .box-lotes .lotes {
+  background-color: #ffffff;
+  padding-top: 30px;
+  padding-bottom: 40px;
+  margin-top: 20px;
+}
+
+.galeria-mulher .box-lotes .lotes .txt2 {
+  margin-top: 15px;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.galeria-mulher .box-lotes .lotes img {
+  margin-top: 20px;
+}
+
+.galeria-mulher .box-lotes .cta {
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: #f5a638;
+  padding: 7px 17px;
+  border-radius: 17px;
+  margin-top: 40px;
+}
+
+.galeria-mulher .box-lotes .cta span {
+  text-decoration: underline;
+}
+
 /* Extra Small */
 @media (max-width: 767px) {
   .produto {
@@ -767,12 +900,76 @@ p {
   }
   .produto .tt-2 .box p {
     font-size: 11px;
-    line-height: 14px;
+    line-height: 16px;
+  }
+  .galeria-homem {
+    padding-top: 20px;
+  }
+  .galeria-homem .galeria {
+    margin-top: 10px;
+  }
+  .galeria-homem .txt1 {
+    font-size: 17px;
+    line-height: 27px;
+  }
+  .galeria-homem .txt2 {
+    margin-top: 15px;
+    font-size: 12px;
+    line-height: 18px;
+    padding-bottom: 20px;
+  }
+  .galeria-homem .box-lotes {
+    padding-bottom: 0px;
+    background: none;
+  }
+  .galeria-homem .box-lotes .lotes {
+    background-color: #ffffff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 0px;
+  }
+  .galeria-mulher {
+    padding-top: 20px;
+  }
+  .galeria-mulher .galeria {
+    margin-top: 10px;
+  }
+  .galeria-mulher .txt1 {
+    font-size: 17px;
+    line-height: 27px;
+  }
+  .galeria-mulher .txt2 {
+    margin-top: 15px;
+    font-size: 15px;
+    line-height: 25px;
+    padding-bottom: 20px;
+  }
+  .galeria-mulher .box-lotes {
+    padding-bottom: 0px;
+    background: none;
+  }
+  .galeria-mulher .box-lotes .lotes {
+    background-color: #ffffff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 0px;
+  }
+  .galeria-mulher .box-lotes .cta {
+    margin-top: 20px;
   }
 }
 
 /* Small */
 /* Medium */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .galeria-homem .box-lotes .lotes {
+    margin-top: 10px;
+  }
+  .galeria-mulher .box-lotes .lotes {
+    margin-top: 10px;
+  }
+}
+
 /* Large */
 .projecto {
   background: url(../images/bg-projecto.jpg) no-repeat;
