@@ -41,7 +41,7 @@
   line-height: 8px;
 }
 
-.menu .planta::before {
+.menu .link-endereco::before {
   content: "" !important;
 }
 

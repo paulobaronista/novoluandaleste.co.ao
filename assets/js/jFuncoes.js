@@ -93,30 +93,39 @@ $(document).on('ready', function () {
 $(document).ready(function () {
     $("#close").click(function () {
         $("#aviso").hide();
-        window.location.href = "https://novoluandaleste.co.ao/"
+        window.location.href = "https://nluandaleste.co.ao/"
+    });
+});
+
+$(document).ready(function () {
+    $("#btn-contato").click(function () {
+        $("#contato").toggle();
+        return false;
+    });
+    $("#btn-mail").click(function () {
+        $("#contato").toggle();
+        return false;
     });
 });
 
 $(function () {
-    $('.nome').clear();
-    $('.email').clear();
-    $('.telefone').clear();
-    $('.assunto1').clear();
-    $('.msg').clear();
+	$('.nome').clear();
+	$('.email').clear();
+	$('.telefone').clear();
+	$('.checkboxResidenciais').clear();
+	$('.checkboxComerciais').clear();
+	$('.checkboxAfrincorp').clear();
+	$('.msg').clear();
 
-    $('.btn_enviar').on('click', function () {
-        var n, e, t, a, m;
-        var msg = "";
-        n = $('.nome').val();
-        e = $('.email').val();
-        t = $('.telefone').val();
-        a = $('.assunto1').val();
-        m = $('.msg').val();
-
-        if (n !== '' && e !== '' & t !== '' && a !== '' && m !== '') {
-            setTimeout(function() { 
-                $(".btn_enviar").attr('disabled', 'disabled');
-            }, 1000);
-        }
-    });
+	$('.btn_enviar').on('click', function () {
+		var n, e, t, cr, cc, ca, m;
+		var msg = "";
+		n = $('.nome').val();
+		e = $('.email').val();
+		t = $('.telefone').val();
+		cr = $('.checkboxResidenciais').val();
+		cc = $('.checkboxComerciais').val();
+		ca = $('.checkboxAfrincorp').val();
+		m = $('.msg').val();
+	});
 });

@@ -162,9 +162,10 @@ p {
   display: table;
   margin: 10% auto 0;
   width: 40%;
-  background-color: #7d6b3f;
+  background-color: #e5ac26;
   padding: 20px 10px;
   position: relative;
+  border-radius: 20px;
 }
 
 .aviso div .close {
@@ -183,7 +184,7 @@ p {
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   font-style: normal;
-  font-size: 18px;
+  font-size: 13px;
   line-height: 1.667;
   color: #ffffff;
   text-transform: uppercase;
@@ -255,21 +256,22 @@ p {
 }
 
 .cookies .box {
-  background-color: #56601d;
+  background-color: #e5ac26;
   padding-top: 20px;
   padding-bottom: 20px;
   position: absolute;
   bottom: 20px;
+  border-radius: 20px;
 }
 
 .cookies .box p {
-  font-family: 'Proxima Nova Rg';
-  font-weight: 300;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
   font-style: normal;
   color: #fff;
-  font-size: 12px;
+  font-size: 11px;
   line-height: 14px;
-  margin-top: 7px;
+  margin-top: 5px;
 }
 
 .cookies .box p a {
@@ -278,67 +280,24 @@ p {
 }
 
 .cookies .box .btn_cookie {
-  font-family: 'Proxima Nova Rg';
+  font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   font-style: normal;
   font-size: 16px;
   line-height: 16px;
-  color: #fff;
+  color: #ffffff;
   border: 0px solid transparent;
   border-radius: 50px;
   padding: 12px 30px;
   width: 160px;
-  margin-top: 7px;
+  margin-top: 5px;
   -webkit-box-shadow: none;
           box-shadow: none;
-  background: #bab355;
-}
-
-.modalPascoa {
-  background-color: rgba(0, 0, 0, 0.5);
-}
-
-.modalPascoa .modal-content {
-  background-color: #000;
-  border: 0px solid transparent;
-  -webkit-box-shadow: none;
-          box-shadow: none;
-}
-
-.modalPascoa .modal-body {
-  padding: 8px;
-}
-
-.modalPascoa .close {
-  font-size: 27px;
-  color: #fff;
-  text-shadow: none;
-  opacity: 1;
-  position: absolute;
-  top: -20px;
-  right: -20px;
-  z-index: 100;
-}
-
-#view-receita {
-  width: 1px;
-  height: 1px;
-  background-color: red;
-  position: absolute;
-  top: 30.3%;
-}
-
-@media (min-width: 768px) {
-  .modalPascoa .modal-dialog {
-    margin: 6% auto 0;
-  }
+  background: #f14e4e;
 }
 
 /* Extra Small */
 @media (max-width: 767px) {
-  #view-receita {
-    top: 0%;
-  }
   .aviso div {
     margin: 30% auto 0;
     width: 95%;
@@ -355,13 +314,6 @@ p {
   }
   .cookies .box .btn_cookie {
     margin-top: 20px;
-  }
-  .modalPascoa .modal-dialog {
-    margin: 25% auto 0;
-  }
-  .modalPascoa .close {
-    top: -30px;
-    right: 5px;
   }
 }
 
@@ -407,7 +359,7 @@ p {
   line-height: 8px;
 }
 
-.menu .planta::before {
+.menu .link-endereco::before {
   content: "" !important;
 }
 
@@ -602,85 +554,6 @@ p {
   }
 }
 
-.contato {
-  background-color: rgba(252, 250, 247, 0.8);
-  border-radius: 20px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  margin-top: 85%;
-}
-
-.contato h5 {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 18px;
-  color: #000000;
-  text-transform: uppercase;
-  margin: 0 0 5px 0;
-}
-
-.contato .form-group {
-  margin-bottom: 10px;
-}
-
-.contato .form-control {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 500;
-  height: 40px;
-  padding: 10px 12px;
-  font-size: 16px;
-  line-height: 1.42857143;
-  color: #595959;
-  background-color: #c2c2c2;
-  border: 0px solid transparent;
-  border-radius: 20px;
-  -webkit-box-shadow: none;
-          box-shadow: none;
-}
-
-.contato .form-control::-webkit-input-placeholder {
-  color: #595959;
-}
-
-.contato .form-control:-ms-input-placeholder {
-  color: #595959;
-}
-
-.contato .form-control::-ms-input-placeholder {
-  color: #595959;
-}
-
-.contato .form-control::placeholder {
-  color: #595959;
-}
-
-.contato textarea {
-  height: 60px !important;
-}
-
-.contato .checkbox {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 500;
-  font-style: normal;
-  font-size: 16px;
-  color: #595959;
-  padding-left: 20px;
-}
-
-.btn_enviar {
-  background: url(../images/btn-contato.png) no-repeat;
-  background-position: center center;
-  background-size: cover;
-  width: 150px;
-  height: 40px;
-  padding: 6px 15px;
-  border: 0px solid transparent;
-  border-radius: 0px;
-  float: right;
-  margin: -23px 0 0 0;
-}
-
 .crystal-lagoons {
   background-color: #d5d5d5;
   padding-top: 30px;
@@ -780,14 +653,6 @@ p {
 
 /* Extra Small */
 @media (max-width: 767px) {
-  .contato {
-    background-color: rgba(252, 250, 247, 0.8);
-    margin-top: 85%;
-  }
-  .contato h5 {
-    font-size: 16px;
-    line-height: 16px;
-  }
   .crystal-lagoons {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -889,6 +754,7 @@ p {
 .galeria-homem {
   padding-top: 40px;
   background-color: #d5d5d5;
+  margin-top: -5px;
 }
 
 .galeria-homem p {
@@ -1029,8 +895,8 @@ p {
     margin-top: -1.5%;
   }
   .produto .tt-1 p {
-    font-size: 15px;
-    line-height: 25px;
+    font-size: 11px;
+    line-height: 21px;
   }
   .produto .tt-2 {
     margin-top: 50%;
@@ -1171,6 +1037,233 @@ footer .navbar-nav li:last-child a {
 @media (max-width: 767px) {
   footer .navbar-nav li > a {
     border-right: 0px solid transparent;
+  }
+}
+
+/* Small */
+/* Medium */
+/* Large */
+.box-contato {
+  width: 324px;
+  position: absolute;
+  top: 90px;
+  right: 15%;
+}
+
+.box-contato #contato {
+  display: none;
+  margin-top: -38px;
+}
+
+.box-contato .contato {
+  background-color: #e5ac26;
+  border-radius: 14px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.box-contato .contato .form-group {
+  margin-bottom: 10px;
+}
+
+.box-contato .contato .form-control {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  height: 13px;
+  padding: 15px 12px;
+  font-size: 13px;
+  line-height: 1.42857143;
+  color: #595959;
+  background-color: #c2c2c2;
+  border: 0px solid transparent;
+  border-radius: 20px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.box-contato .contato .form-control::-webkit-input-placeholder {
+  color: #595959;
+}
+
+.box-contato .contato .form-control:-ms-input-placeholder {
+  color: #595959;
+}
+
+.box-contato .contato .form-control::-ms-input-placeholder {
+  color: #595959;
+}
+
+.box-contato .contato .form-control::placeholder {
+  color: #595959;
+}
+
+.box-contato .contato textarea {
+  height: 60px !important;
+}
+
+.box-contato .contato .checkbox {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 13px;
+  color: #595959;
+  padding-left: 10px;
+}
+
+.box-contato .btn_enviar {
+  background: url(../images/btn-contato.png) no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 110px;
+  height: 30px;
+  padding: 6px 15px;
+  border: 0px solid transparent;
+  border-radius: 0px;
+  float: right;
+  margin: -16px 0 0 0;
+}
+
+.btn-contato {
+  display: inline-block;
+  width: 100%;
+  z-index: 100;
+  position: relative;
+}
+
+.btn-contato a {
+  background-color: #e5ac26;
+  float: right;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 13px;
+  line-height: 13px;
+  color: #000000;
+  text-transform: uppercase;
+  padding: 10px 19px;
+  border-radius: 14px;
+  position: relative;
+}
+
+.btn-contato a:hover, .btn-contato a:active, .btn-contato a:focus {
+  text-decoration: none;
+}
+
+.btn-contato a img {
+  position: absolute;
+  bottom: -7px;
+  right: 21px;
+}
+
+/* Extra Small */
+@media (max-width: 767px) {
+  .box-contato {
+    width: 100%;
+    position: relative;
+    top: 0px;
+    right: 0;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .box-contato #contato {
+    display: block;
+    margin-top: -55px;
+  }
+  .box-contato .contato {
+    background-color: rgba(252, 250, 247, 0.8);
+    border-radius: 14px;
+    padding-top: 50px;
+  }
+  .box-contato .contato .form-control {
+    font-size: 15px;
+    height: 40px;
+    padding: 20px 12px;
+  }
+  .box-contato .contato textarea {
+    height: 80px !important;
+  }
+  .box-contato .contato .checkbox {
+    font-size: 15px;
+  }
+  .box-contato .btn_enviar {
+    background-size: 100%;
+    width: 150px;
+    height: 45px;
+  }
+  .btn-contato a {
+    background-color: transparent;
+    padding: 20px 19px 15px;
+    font-size: 15px;
+    line-height: 15px;
+    width: 100%;
+    text-align: center;
+  }
+  .btn-contato a img {
+    display: none;
+  }
+}
+
+/* Small */
+/* Medium */
+/* Large */
+.politica {
+  margin-top: 180px;
+  padding-bottom: 50px;
+}
+
+.politica .politica-tt {
+  background-color: #000000;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.politica .politica-tt h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 25px;
+  line-height: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+.politica .politica-info {
+  margin-top: 30px;
+}
+
+.politica .politica-info p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #000;
+  font-size: 15px;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+
+.politica .politica-info p a {
+  color: #EC2c27;
+  text-decoration: underline;
+}
+
+/* Extra Small */
+@media (max-width: 767px) {
+  .politica {
+    margin-top: 68px;
+    padding-bottom: 20px;
+  }
+  .politica .politica-tt h3 {
+    font-size: 25px;
+    line-height: 25px;
+  }
+  .politica .politica-info {
+    margin-top: 20px;
+  }
+  .politica .politica-info p {
+    font-size: 13px;
+    line-height: 20px;
   }
 }
 

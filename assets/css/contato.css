@@ -1,132 +1,160 @@
-.contato {
-  background-color: #56601d;
-  padding-top: 30px;
-  padding-bottom: 30px;
+.box-contato {
+  width: 324px;
+  position: absolute;
+  top: 90px;
+  right: 15%;
 }
 
-.contato .tt {
+.box-contato #contato {
+  display: none;
+  margin-top: -38px;
+}
+
+.box-contato .contato {
+  background-color: #e5ac26;
+  border-radius: 14px;
+  padding-top: 40px;
   padding-bottom: 20px;
 }
 
-.contato .tt p {
-  font-family: 'Rosellinda Alyamore';
-  font-weight: normal;
-  font-style: normal;
-  color: #fff;
-  font-size: 50px;
-  line-height: 50px;
+.box-contato .contato .form-group {
+  margin-bottom: 10px;
 }
 
-.contato .txt-1,
-.contato .txt-2 {
-  font-family: 'HelveticaNeue';
-  font-weight: 500;
-  color: #ffffff;
-  text-transform: uppercase;
-}
-
-.contato .txt-1 a,
-.contato .txt-2 a {
-  color: #ffffff;
-}
-
-.contato .txt-1 {
-  font-size: 15px;
-  line-height: 30px;
-}
-
-.contato .txt-2 {
-  font-size: 30px;
-  line-height: 30px;
-}
-
-.contato .group-form .form-group {
-  padding-left: 2px;
-  padding-right: 2px;
-  margin-bottom: 5px;
-}
-
-.contato .group-form .form-control {
+.box-contato .contato .form-control {
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
-  height: 50px;
-  padding: 6px 12px;
-  font-size: 14px;
+  height: 13px;
+  padding: 15px 12px;
+  font-size: 13px;
   line-height: 1.42857143;
-  color: #000000;
-  background-color: #fff;
+  color: #595959;
+  background-color: #c2c2c2;
   border: 0px solid transparent;
-  border-radius: 0px;
+  border-radius: 20px;
   -webkit-box-shadow: none;
           box-shadow: none;
 }
 
-.contato .group-form .form-control::-webkit-input-placeholder {
-  color: #000000;
+.box-contato .contato .form-control::-webkit-input-placeholder {
+  color: #595959;
 }
 
-.contato .group-form .form-control:-ms-input-placeholder {
-  color: #000000;
+.box-contato .contato .form-control:-ms-input-placeholder {
+  color: #595959;
 }
 
-.contato .group-form .form-control::-ms-input-placeholder {
-  color: #000000;
+.box-contato .contato .form-control::-ms-input-placeholder {
+  color: #595959;
 }
 
-.contato .group-form .form-control::placeholder {
-  color: #000000;
+.box-contato .contato .form-control::placeholder {
+  color: #595959;
 }
 
-.contato .group-form textarea {
-  height: 150px !important;
+.box-contato .contato textarea {
+  height: 60px !important;
 }
 
-.contato .group-form .btn_enviar {
-  font-family: 'HelveticaNeue';
+.box-contato .contato .checkbox {
+  font-family: 'Montserrat', sans-serif;
   font-weight: 500;
-  padding: 8px 20px;
-  margin-bottom: 0;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 1.42857143;
+  font-style: normal;
+  font-size: 13px;
+  color: #595959;
+  padding-left: 10px;
+}
+
+.box-contato .btn_enviar {
+  background: url(../images/btn-contato.png) no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 110px;
+  height: 30px;
+  padding: 6px 15px;
   border: 0px solid transparent;
   border-radius: 0px;
-  color: #fff;
-  background-color: #bab355;
   float: right;
-  text-transform: uppercase;
+  margin: -16px 0 0 0;
 }
 
-.contato small {
-  font-family: 'HelveticaNeue';
-  font-weight: 500;
-  color: #ffffff;
-  font-size: 10px;
+.btn-contato {
+  display: inline-block;
+  width: 100%;
+  z-index: 100;
+  position: relative;
+}
+
+.btn-contato a {
+  background-color: #e5ac26;
+  float: right;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 13px;
   line-height: 13px;
-  display: block;
+  color: #000000;
+  text-transform: uppercase;
+  padding: 10px 19px;
+  border-radius: 14px;
+  position: relative;
+}
+
+.btn-contato a:hover, .btn-contato a:active, .btn-contato a:focus {
+  text-decoration: none;
+}
+
+.btn-contato a img {
+  position: absolute;
+  bottom: -7px;
+  right: 21px;
 }
 
 /* Extra Small */
 @media (max-width: 767px) {
-  .contato {
-    padding-top: 30px;
-    padding-bottom: 30px;
+  .box-contato {
+    width: 100%;
+    position: relative;
+    top: 0px;
+    right: 0;
+    margin-top: 30px;
+    margin-bottom: 30px;
   }
-  .contato .tt {
-    padding-bottom: 20px;
+  .box-contato #contato {
+    display: block;
+    margin-top: -55px;
   }
-  .contato .tt p {
-    font-size: 50px;
-    line-height: 40px;
+  .box-contato .contato {
+    background-color: rgba(252, 250, 247, 0.8);
+    border-radius: 14px;
+    padding-top: 50px;
+  }
+  .box-contato .contato .form-control {
+    font-size: 15px;
+    height: 40px;
+    padding: 20px 12px;
+  }
+  .box-contato .contato textarea {
+    height: 80px !important;
+  }
+  .box-contato .contato .checkbox {
+    font-size: 15px;
+  }
+  .box-contato .btn_enviar {
+    background-size: 100%;
+    width: 150px;
+    height: 45px;
+  }
+  .btn-contato a {
+    background-color: transparent;
+    padding: 20px 19px 15px;
+    font-size: 15px;
+    line-height: 15px;
+    width: 100%;
     text-align: center;
   }
-  .contato .txt-1 {
-    font-size: 14px;
-    line-height: 28px;
-  }
-  .contato .txt-2 {
-    font-size: 25px;
-    line-height: 25px;
+  .btn-contato a img {
+    display: none;
   }
 }
 

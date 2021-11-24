@@ -22,9 +22,9 @@
                     <ul class="nav navbar-nav navbar-right">
                         <li><a class="scrollink" href="#projecto">Projecto</a></li>
                         <li><a class="scrollink" href="#filme">Filme</a></li>
+                        <li><a class="scrollink" href="#planta">PLANTA</a></li>
                         <li><a class="scrollink" href="#crystal-lagoons">CRYSTAL LAGOONS</a></li>
-                        <li><a class="scrollink" href="#endereco">ENDEREÇO</a></li>
-                        <li><a class="scrollink planta" href="#planta">PLANTA</a></li>
+                        <li><a class="scrollink link-endereco" href="#endereco">ENDEREÇO</a></li>
                     </ul>
                 </div>
             </div>
@@ -49,65 +49,13 @@
         </section>
     </div>
 </div>
-
-<!-- 
-<div class="col-xs-12 col-sm-5 col-md-5 col-lg-5 padding-off">
-    <form method="post" role="form" action="<?php echo base_url("contato") ?>">
-        <div class="group-form">
-            <div class="col-xs-12 col-sm-12 col-md-12 padding-off contato">
-                <div class="col-xs-12 col-sm-12 col-md-12 form-group">
-                    <h5>Quer receber mais informações?</h5>
-                </div>
-                <div class="col-xs-12 col-sm-12 col-md-12 form-group">
-                    <input id="nome" type="text" class="nome form-control" name="nome" required="required" placeholder="Digite seu Nome" />
-                </div>
-                <div class="col-xs-12 col-sm-12 col-md-12 form-group">
-                    <input id="email" type="email" class="email form-control" name="email" required="required" placeholder="Digite seu E-mail" />
-                </div>
-                <div class="col-xs-12 col-sm-12 col-md-12">
-                    <input id="telefone" type="text" class="telefone form-control" name="telefone" placeholder="Digite seu Telefone" />
-                </div>
-                <div class="col-xs-12 col-sm-12 col-md-12">
-                    <div class="checkbox">
-                        <label style="padding-left: 0px;">
-                            Você tem interesse:
-                        </label>
-                    </div>
-                    <div class="checkbox">
-                        <label>
-                            <input type="checkbox" name="checkboxResidenciais" class="checkboxResidenciais" value="residenciais"> Lotes residenciais
-                        </label>
-                    </div>
-                    <div class="checkbox">
-                        <label>
-                            <input type="checkbox" name="checkboxComerciais" class="checkboxComerciais" value="comerciais"> Lotes comerciais
-                        </label>
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-12 col-md-12">
-                    <textarea id="form-mensagem" class="msg form-control" rows="3" name="mss" required="required" placeholder="Mensagem..."></textarea>
-                </div>
-                <div class="col-xs-12 col-sm-12 col-md-12">
-                    <div class="checkbox">
-                        <label>
-                            <input type="checkbox" name="checkboxAfrincorp" class="checkboxAfrincorp" value="afrincorp"> Aceito receber informações da Afrincorp
-                        </label>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-12 col-md-12">
-                <button type="submit" class="btn_enviar btn" title="enviar" name="enviar_email" value="enviar"></button>
-            </div>
-        </div>
-    </form>
-</div> -->
-<div id="produto" class="container-fluid padding-off produto">
+<div id="projecto" class="container-fluid padding-off produto">
     <div class="container tt-1">
         <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 padding-off text-center">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
                 <p>
-                    PROJECTO URBANÍSTICO DE UM BAIRRO PLANEADO COM UMA DAS MAIORES<br />
-                    LAGOAS ARTIFICIAIS DE ÁGUAS CRISTALINAS DO MUNDO,<br />
+                    PROJECTO URBANÍSTICO DE UM BAIRRO PLANEADO COM UMA DAS MAIORES<br class="hidden-xs" />
+                    LAGOAS ARTIFICIAIS DE ÁGUAS CRISTALINAS DO MUNDO,<br class="hidden-xs" />
                     BY <span>CRYSTAL LAGOONS</span><sup>®</sup>.
                 </p>
             </div>
@@ -136,11 +84,16 @@
         </div>
     </div>
 </div>
-<div class="video">
+<div id="filme" class="video">
     <div class="box-video">
-        <div class="embed-responsive embed-responsive-16by9">
+        <!-- <div class="embed-responsive embed-responsive-16by9">
             <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/N1kTP7dai4M"></iframe>
-        </div>
+        </div> -->
+        <video width="100%" height="auto" controls>
+            <source src="<?= base_url(); ?>assets/video/video.mp4" type="video/mp4">
+            <source src="<?= base_url(); ?>assets/video/video.ogg" type="video/ogg">
+            Your browser does not support the video tag.
+        </video>
     </div>
 </div>
 <div class="container-fluid padding-off galeria-homem">
@@ -158,7 +111,10 @@
                             <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/galeria-homem-01.jpg" alt="Novo Luanda Leste">
                         </div>
                         <div>
-                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/galeria-homem-01.jpg" alt="Novo Luanda Leste">
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/galeria-homem-02.jpg" alt="Novo Luanda Leste">
+                        </div>
+                        <div>
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/galeria-homem-03.jpg" alt="Novo Luanda Leste">
                         </div>
                     </section>
                 </div>
@@ -212,7 +168,22 @@
                             <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/galeria-mulher-01.jpg" alt="Novo Luanda Leste">
                         </div>
                         <div>
-                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/galeria-mulher-01.jpg" alt="Novo Luanda Leste">
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/galeria-mulher-02.jpg" alt="Novo Luanda Leste">
+                        </div>
+                        <div>
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/galeria-mulher-03.jpg" alt="Novo Luanda Leste">
+                        </div>
+                        <div>
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/galeria-mulher-04.jpg" alt="Novo Luanda Leste">
+                        </div>
+                        <div>
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/galeria-mulher-05.jpg" alt="Novo Luanda Leste">
+                        </div>
+                        <div>
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/galeria-mulher-06.jpg" alt="Novo Luanda Leste">
+                        </div>
+                        <div>
+                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/galeria-mulher-07.jpg" alt="Novo Luanda Leste">
                         </div>
                     </section>
                 </div>
@@ -228,7 +199,7 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid padding-off box-lotes">
+    <div id="planta" class="container-fluid padding-off box-lotes">
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 col-lg-offset-1 text-center lotes">
@@ -254,7 +225,7 @@
         </div>
     </div>
 </div>
-<div class="container-fluid padding-off crystal-lagoons">
+<div id="crystal-lagoons" class="container-fluid padding-off crystal-lagoons">
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12 text-center">
@@ -301,7 +272,7 @@
         </div>
     </div>
 </div>
-<div class="container-fluid padding-off endereco">
+<div id="endereco" class="container-fluid padding-off endereco">
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2 text-center">
@@ -311,8 +282,8 @@
                 </p>
                 <span class="box">
                     <p class="txt2">
-                        <span>Escritório central:</span><br />
-                        Rua 21, nº 697 Urbanização - Nova Vida - Luanda - Angola
+                        <span>Plantão de Vendas:</span><br />
+                        Estrada Viana Catete, KM 49 - Luanda/Angola
                     </p>
                 </span>
                 <p class="txt3">
@@ -326,71 +297,63 @@
         </div>
     </div>
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- 
-<div id="fale-conosco" class="container-fluid padding-off contato">
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-12 text-center tt">
-                <p>Fale com a gente e leve um dos melhores azeites do mundo para a sua mesa.</p>
-            </div>
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-lg-offset-2">
-                <form method="post" role="form" action="<?php echo base_url("contato") ?>">
-                    <div class="group-form">
-                        <div class="col-xs-12 col-sm-12 col-md-6 form-group">
-                            <input id="nome" type="text" class="nome form-control" name="nome" required="required" placeholder="NOME*" />
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 box-contato">
+    <div class="btn-contato">
+        <a id="btn-contato" href="#">
+            Quer receber mais informações?
+            <img src="<?= base_url(); ?>assets/images/bullet.png" alt="Novo Luanda Leste">
+        </a>
+    </div>
+    <div id="contato">
+        <form method="post" role="form" action="<?php echo base_url("contato") ?>">
+            <div class="group-form">
+                <div class="col-xs-12 col-sm-12 col-md-12 padding-off contato">
+                    <div class="col-xs-12 col-sm-12 col-md-12 form-group">
+                        <input id="nome" type="text" class="nome form-control" name="nome" required="required" placeholder="Digite seu Nome" />
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-12 form-group">
+                        <input id="email" type="email" class="email form-control" name="email" required="required" placeholder="Digite seu E-mail" />
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-12">
+                        <input id="telefone" type="text" class="telefone form-control" name="telefone" placeholder="Digite seu Telefone" />
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-12">
+                        <div class="checkbox">
+                            <label style="padding-left: 0px;">
+                                Você tem interesse:
+                            </label>
                         </div>
-                        <div class="col-xs-12 col-sm-12 col-md-6 form-group">
-                            <input id="email" type="email" class="email form-control" name="email" required="required" placeholder="E-MAIL*" />
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox" name="checkboxResidenciais" class="checkboxResidenciais" value="Sim"> Lotes residenciais
+                            </label>
                         </div>
-                        <div class="col-xs-12 col-sm-12 col-md-6 form-group">
-                            <input id="telefone" type="text" class="telefone form-control" name="telefone" placeholder="TELEFONE" />
-                        </div>
-                        <div class="col-xs-12 col-sm-12 col-md-6 form-group">
-                            <div class="custom_select">
-                                <select id="assunto1" class="assunto1 form-control" name="assunto1" required="required">
-                                    <option value="" disabled selected>ASSUNTO*</option>
-                                    <option value="Dúvidas ou Sugestões">Dúvidas ou Sugestões</option>
-                                    <option value="Revenda">Revenda</option>
-                                    <option value="Representação Comercial">Representação Comercial</option>
-                                    <option value="Outros assuntos">Outros assuntos</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="col-xs-12 col-sm-12 col-md-12 form-group">
-                            <textarea id="form-mensagem" class="msg form-control" rows="4" name="mss" required="required" placeholder="MENSAGEM"></textarea>
-                        </div>
-                        <div class="col-xs-9 col-sm-8 col-md-8 form-group">
-                            <small>* Os campos marcados com asterisco são de preenchimento obrigatório.</small>
-                        </div>
-                        <div class="col-xs-3 col-sm-4 col-md-4 form-group">
-                            <button type="submit" class="btn_enviar btn" title="enviar" name="enviar_email" value="enviar">Enviar</button>
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox" name="checkboxComerciais" class="checkboxComerciais" value="Sim"> Lotes comerciais
+                            </label>
                         </div>
                     </div>
-                </form>
+                    <div class="col-xs-12 col-sm-12 col-md-12">
+                        <textarea id="form-mensagem" class="msg form-control" rows="3" name="mss" required="required" placeholder="Mensagem..."></textarea>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-12">
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox" name="checkboxAfrincorp" class="checkboxAfrincorp" value="Aceito" required="required"> Aceito receber informações da Afrincorp
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-12">
+                    <button type="submit" class="btn_enviar btn" title="enviar" name="enviar_email" value="enviar"></button>
+                </div>
             </div>
-        </div>
+        </form>
     </div>
-</div> -->
+</div>
 
-
-<!-- <div id="cookies" class="cookies">
+<div id="cookies" class="cookies">
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-lg-offset-2 box">
         <div class="col-xs-12 col-sm-9 col-md-9">
             <p>
@@ -402,7 +365,7 @@
             <a href="#" class="btn_cookie btn center-block">Aceito</a>
         </div>
     </div>
-</div> -->
+</div>
 
 <?php
 if (isset($email_enviado))
