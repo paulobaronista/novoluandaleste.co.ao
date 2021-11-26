@@ -86,14 +86,45 @@
 </div>
 <div id="filme" class="video">
     <div class="box-video">
-        <!-- <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/N1kTP7dai4M"></iframe>
-        </div> -->
-        <video width="100%" height="auto" controls>
-            <source src="<?= base_url(); ?>assets/video/video.mp4" type="video/mp4">
-            <source src="<?= base_url(); ?>assets/video/video.ogg" type="video/ogg">
-            Your browser does not support the video tag.
-        </video>
+        <div id="player"></div>
+        <script>
+            var tag = document.createElement('script');
+            tag.src = "https://www.youtube.com/iframe_api";
+            var firstScriptTag = document.getElementsByTagName('script')[0];
+            firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+            var player;
+            function onYouTubeIframeAPIReady() {
+                player = new YT.Player('player', {
+                    height: '100%',
+                    width: '100%',
+                    videoId: 'BJ9mRHqN-Ys',
+                    playerVars: {
+                        'autoplay': 1,
+                        'controls': 0,
+                        'showinfo': 0,
+                        'loop': 1,
+                        'playlist': 'BJ9mRHqN-Ys',
+                        'vq': 'hd720'
+                    },
+                    events: {
+                        'onReady': onPlayerReady,
+                        'onStateChange': onPlayerStateChange
+                    }
+                });
+            }
+            function onPlayerReady(event) {
+                event.target.setVolume(0);
+                event.target.playVideo();
+            }
+            var done = false;
+            function onPlayerStateChange(event) {
+                if (event.data == YT.PlayerState.PLAYING && !done) {
+                    //      setTimeout(stopVideo, 6000);
+                    done = true;
+                }
+                event.target.setVolume(0);
+            }
+        </script>
     </div>
 </div>
 <div class="container-fluid padding-off galeria-homem">
@@ -137,9 +168,9 @@
                             LOTES COMERCIAIS DE <span>450</span> A <span>67 MIL M²</span> COM DIREITO DE SUPERFÍCIE
                         </p>
                         <p class="txt2">
-                            O <span>Novo Luanda Leste</span> é o local ideal para abrigar empreendimentos comerciais de <br />todos os tamanhos, como <span>hotéis, shoppings, restaurantes, edifícios comerciais,<br />
-                                academias</span> e <span>muito mais</span>.<br />
-                            Imagine sua empresa no entorno de uma deslumbrante praia artificial com aguas <br />cristalinas e areia branca.
+                            O <span>Novo Luanda Leste</span> é o local ideal para abrigar empreendimentos comerciais de todos</br>
+                            os tamanhos, como <span>hotéis, shoppings, restaurantes, edifícios comerciais, academias e muito mais</span>.</br>
+                            Imagine sua empresa no entorno de uma deslumbrante praia artificial com aguas cristalinas e areia branca.
                         </p>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
@@ -227,7 +258,7 @@
             <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
                 <div class="box-video">
                     <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/N1kTP7dai4M"></iframe>
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/igT2TRFxSOk"></iframe>
                     </div>
                 </div>
             </div>
@@ -347,6 +378,7 @@
 <div id="aviso" class="aviso text-center">
     <div>
         <button type="button" class="close" id="close"><span aria-hidden="true">&times;</span></button>
-        <p>Mensagem enviada com sucesso!</p>
+        <p>MENSAGEM ENVIADA COM SUCESSO.<br />
+            EM BREVE RETORNAREMOS CONTACTO.</p>
     </div>
 </div>

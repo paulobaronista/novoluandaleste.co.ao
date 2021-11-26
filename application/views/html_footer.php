@@ -7,8 +7,8 @@ echo script_tag('assets/js/bootstrap.min.js');
 ?>
 
 <div class="float-box">
-    <a href="#" target="_blank" class="whats">Whatsapp</a>
-    <a href="#home" class="mail scrollink hidden-xs">Enviar mensagem</a>
+    <a href="https://api.whatsapp.com/send?1=pt_BR&phone=+244922999903" target="_blank" class="whats">Whatsapp</a>
+    <a id="btn-mail" href="#home" class="mail scrollink hidden-xs">Enviar mensagem</a>
     <a href="#contato" class="mail scrollink visible-xs">Enviar mensagem</a>
 </div>
 
