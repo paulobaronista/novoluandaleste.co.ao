@@ -113,9 +113,6 @@
                         <div>
                             <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/galeria-homem-02.jpg" alt="Novo Luanda Leste">
                         </div>
-                        <div>
-                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/galeria-homem-03.jpg" alt="Novo Luanda Leste">
-                        </div>
                     </section>
                 </div>
                 <img class="homem-galeria hidden-xs" src="<?= base_url(); ?>assets/images/homem-galeria.png" alt="Novo Luanda Leste">
@@ -175,15 +172,6 @@
                         </div>
                         <div>
                             <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/galeria-mulher-04.jpg" alt="Novo Luanda Leste">
-                        </div>
-                        <div>
-                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/galeria-mulher-05.jpg" alt="Novo Luanda Leste">
-                        </div>
-                        <div>
-                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/galeria-mulher-06.jpg" alt="Novo Luanda Leste">
-                        </div>
-                        <div>
-                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/galeria-mulher-07.jpg" alt="Novo Luanda Leste">
                         </div>
                     </section>
                 </div>
@@ -275,10 +263,10 @@
 <div id="endereco" class="container-fluid padding-off endereco">
     <div class="container">
         <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2 text-center">
+            <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1 text-center">
                 <p class="txt1">
-                    <span>VENHA CONHECER</span> ESTE GRANDE PROJETO OU<br />
-                    <span>AGENDE COM NOSSOS ESPECILISTAS</span> UMA APRESENTAÇÃO EXCLUSIVA
+                    <span>VENHA CONHECER</span> ESTE GRANDE PROJECTO OU<br />
+                    <span>AGENDE COM NOSSOS ESPECIALISTAS</span> UMA APRESENTAÇÃO EXCLUSIVA.
                 </p>
                 <span class="box">
                     <p class="txt2">
@@ -286,13 +274,17 @@
                         Estrada Viana Catete, KM 49 - Luanda/Angola
                     </p>
                 </span>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 text-center"></div>
+            <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7 text-center">
                 <p class="txt3">
-                    <span>Faça parte</span> da construção dessa nova centralidade planeada<br />
-                    <span>e transforme a vida de quem vive, visita</span> e <span>investe</span> em Luanda.
+                    <span>Faça parte</span> da construção dessa nova<br />
+                    centralidade planeada e <span>transforme<br />
+                        a vida de quem vive, visita</span> e <span>investe</span> em Luanda.
                 </p>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
-                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/familia.png" alt="Familia">
+                <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/dt2.png" alt="Afrincorp">
             </div>
         </div>
     </div>
@@ -305,7 +297,7 @@
         </a>
     </div>
     <div id="contato">
-        <form method="post" role="form" action="<?php echo base_url("contato") ?>">
+        <form method="post" role="form" action="https://www.spicycomm.com.br/formEmail/luandaleste/contato">
             <div class="group-form">
                 <div class="col-xs-12 col-sm-12 col-md-12 padding-off contato">
                     <div class="col-xs-12 col-sm-12 col-md-12 form-group">

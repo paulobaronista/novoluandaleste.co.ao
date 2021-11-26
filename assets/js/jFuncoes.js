@@ -93,7 +93,7 @@ $(document).on('ready', function () {
 $(document).ready(function () {
     $("#close").click(function () {
         $("#aviso").hide();
-        window.location.href = "https://nluandaleste.co.ao/"
+        window.location.href = "http://novoluandaleste.co.ao/"
     });
 });
 

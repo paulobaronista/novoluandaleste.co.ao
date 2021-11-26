@@ -58,7 +58,7 @@
 
 .endereco {
     background: url(../images/bg-endereco.jpg) no-repeat;
-    background-position: center bottom;
+    background-position: left bottom;
     background-size: cover;
     padding-top: 40px;
 
@@ -66,8 +66,8 @@
         font-family: 'Montserrat', sans-serif;
         font-weight: 400;
         color: #444444;
-        font-size: 17px;
-        line-height: 24px;
+        font-size: 22px;
+        line-height: 30px;
         text-transform: uppercase;
 
         span {
@@ -83,11 +83,11 @@
     }
 
     .txt1 {
-        margin-bottom: 20px;
+        margin-bottom: 30px;
     }
 
     .txt3 {
-        margin-top: 20px;
+        margin-top: 40px;
     }
 
     img {
@@ -138,7 +138,7 @@
 
     .endereco {
         background: url(../images/bg-endereco-mobile.jpg) no-repeat;
-        background-position: center bottom;
+        background-position: left bottom;
         background-size: cover;
         padding-top: 30px;
 
