@@ -8,8 +8,8 @@ class Contato extends CI_Controller{
     }
     public function index(){
         $data['title'] = 'Novo Luanda Leste';
-        $data['description'] = 'Descrição';
-        $data['keywords'] = 'keywords';
+        $data['description'] = 'Uma cidade de oportunidades. Uma mar de possibilidade.';
+        $data['keywords'] = 'lotes comerciais luanda; lotes residenciais luanda; novo luanda leste; crystal lagoons luanda; crystal lagoons luanda; novoluandaleste; segunda fase luanda leste; sitio luanda leste; lotes luanda; terrenos luanda';
         $menu['contato'] = 'active';
         $conteudo['pagina_view'] = 'contato_view';
 
@@ -61,8 +61,8 @@ class Contato extends CI_Controller{
 
     public function obrigado(){
         $data['title'] = 'Novo Luanda Leste';
-        $data['description'] = 'Descrição';
-        $data['keywords'] = 'keywords';
+        $data['description'] = 'Uma cidade de oportunidades. Uma mar de possibilidade.';
+        $data['keywords'] = 'lotes comerciais luanda; lotes residenciais luanda; novo luanda leste; crystal lagoons luanda; crystal lagoons luanda; novoluandaleste; segunda fase luanda leste; sitio luanda leste; lotes luanda; terrenos luanda';
         $menu['contato'] = 'active';
         $conteudo['pagina_view'] = 'contato_sucesso';
         $this->load->view('html_header', $data);
@@ -75,8 +75,8 @@ class Contato extends CI_Controller{
 
     public function fail(){
         $data['title'] = 'Novo Luanda Leste';
-        $data['description'] = 'Descrição';
-        $data['keywords'] = 'keywords';
+        $data['description'] = 'Uma cidade de oportunidades. Uma mar de possibilidade.';
+        $data['keywords'] = 'lotes comerciais luanda; lotes residenciais luanda; novo luanda leste; crystal lagoons luanda; crystal lagoons luanda; novoluandaleste; segunda fase luanda leste; sitio luanda leste; lotes luanda; terrenos luanda';
         $menu['contato'] = 'active';
         $conteudo['pagina_view'] = 'contato_insucesso';
         $this->load->view('html_header', $data);

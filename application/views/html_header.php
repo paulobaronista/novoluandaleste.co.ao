@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="title" content="Novo Luanda Leste" />
     <meta name="og:title" content="Novo Luanda Leste" />
-    <meta name="og:description" content="Descrição" />
+    <meta name="og:description" content="Uma cidade de oportunidades. Uma mar de possibilidade." />
     <meta name="og:image" content="<?= base_url(); ?>assets/images/compartilhamento.png" />
     <link rel="icon" href="<?= base_url(); ?>assets/images/favicon.png">
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="<?= base_url(); ?>assets/images/apple-touch-icon-144-precomposed.png">
@@ -22,7 +22,7 @@
     <!-- property (faz funcionar no linkedin) -->
     <meta property="og:title" content="Novo Luanda Leste" />
     <meta property="og:image" content="<?= base_url(); ?>assets/images/compartilhamento.png" />
-    <meta property="Descrição" />
+    <meta property="Uma cidade de oportunidades. Uma mar de possibilidade." />
     <meta property="og:url" content="https://novoluandaleste.co.ao/" />
     <!-- property (faz funcionar no linkedin) -->
     <?php

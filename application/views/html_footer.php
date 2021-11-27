@@ -12,6 +12,19 @@ echo script_tag('assets/js/bootstrap.min.js');
     <a href="#contato" class="mail scrollink visible-xs">Enviar mensagem</a>
 </div>
 
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LZK91GZN4K"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-LZK91GZN4K');
+</script>
+
 </body>
 
 </html>

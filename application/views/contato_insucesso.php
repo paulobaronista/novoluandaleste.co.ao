@@ -15,9 +15,9 @@
                 </div>
                 <div id="navbar" class="navbar-collapse collapse">
                     <div class="redes">
-                        <a class="instagram" href="#" target="_blank"></a>
-                        <a class="facebook" href="#" target="_blank"></a>
-                        <a class="youtube" href="#" target="_blank"></a>
+                        <a class="instagram" href="https://www.instagram.com/novo_luandaleste" target="_blank"></a>
+                        <a class="facebook" href="https://www.facebook.com/novoluandaleste" target="_blank"></a>
+                        <a class="youtube" href="https://www.youtube.com/channel/UCws0zqETIptGrnJ_rGNaVbw" target="_blank"></a>
                     </div>
                     <ul class="nav navbar-nav navbar-right">
                         <li><a class="scrollink" href="#projecto">Projecto</a></li>
@@ -93,6 +93,7 @@
             var firstScriptTag = document.getElementsByTagName('script')[0];
             firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
             var player;
+
             function onYouTubeIframeAPIReady() {
                 player = new YT.Player('player', {
                     height: '100%',
@@ -112,11 +113,13 @@
                     }
                 });
             }
+
             function onPlayerReady(event) {
                 event.target.setVolume(0);
                 event.target.playVideo();
             }
             var done = false;
+
             function onPlayerStateChange(event) {
                 if (event.data == YT.PlayerState.PLAYING && !done) {
                     //      setTimeout(stopVideo, 6000);
