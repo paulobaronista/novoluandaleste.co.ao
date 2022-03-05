@@ -16,6 +16,10 @@ $(document).on('ready', function () {
 });
 
 $(document).ready(function () {
+    $('#modalIntro').modal();
+});
+
+$(document).ready(function () {
     $('#cookies').show();
     if (window.localStorage.getItem('accept_cookies')) {
         $('#cookies').hide();

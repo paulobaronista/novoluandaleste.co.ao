@@ -145,6 +145,36 @@ p {
     margin-right: 0px;
 }
 
+.modalIntro {
+    background-color: rgba(0, 0, 0, 0.9);
+
+    .modal-content {
+        background-color: transparent;
+        border: 0px solid transparent;
+        box-shadow: none;
+        border-radius: 0px;
+    }
+
+    .modal-body {
+        padding: 8px;
+        margin-top: 10%;
+        .cta {
+            margin-top: 50px;
+        }
+    }
+
+    .close {
+        text-shadow: none;
+        opacity: 1;
+        position: absolute;
+        top: -20px;
+        right: -20px;
+        z-index: 100;
+        width: 40px;
+        height: 40px;
+    }
+}
+
 .aviso {
     background: rgba(0, 0, 0, 0.6);
     width: 100%;
@@ -286,12 +316,24 @@ p {
     }
 }
 
-@media (min-width: 768px) {
-}
+@media (min-width: 768px) {}
 
 
 /* Extra Small */
 @media(max-width:767px) {
+
+    .modalIntro {
+        .modal-dialog {
+            margin: 20% auto 0;
+        }
+
+        .close {
+            top: -30px;
+            right: 5px;
+        }
+    }
+
+
     .aviso {
         div {
             margin: 30% auto 0;

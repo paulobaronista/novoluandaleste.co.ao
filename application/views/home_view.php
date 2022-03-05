@@ -393,3 +393,31 @@
 if (isset($email_enviado))
     echo $email_enviado;
 ?>
+
+<!-- Intro -->
+<div class="modal fade modalIntro" id="modalIntro" tabindex="-1" role="dialog" aria-labelledby="modalIntroabel" data-backdrop="static">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <img class="img-responsive" src="<?= base_url(); ?>assets/images/close-modal.png" alt="Novo Luanda Leste">
+            </button>
+            <div class="col-xs-12 col-sm-12 col-md-12 padding-off modal-body">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 col-lg-offset-1">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 padding-off">
+                        <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/logo_intro.png" alt="Novo Luanda Leste">
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                        <a href="#" data-dismiss="modal" aria-label="Close">
+                            <img class="img-responsive center-block cta" src="<?= base_url(); ?>assets/images/residenciais.png" alt="Novo Luanda Leste">
+                        </a>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                        <a href="<?php echo base_url(); ?>lotescomerciais">
+                            <img class="img-responsive center-block cta" src="<?= base_url(); ?>assets/images/comerciais.png" alt="Novo Luanda Leste">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

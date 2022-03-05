@@ -146,6 +146,38 @@ p {
   margin-right: 0px;
 }
 
+.modalIntro {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.modalIntro .modal-content {
+  background-color: transparent;
+  border: 0px solid transparent;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border-radius: 0px;
+}
+
+.modalIntro .modal-body {
+  padding: 8px;
+  margin-top: 10%;
+}
+
+.modalIntro .modal-body .cta {
+  margin-top: 50px;
+}
+
+.modalIntro .close {
+  text-shadow: none;
+  opacity: 1;
+  position: absolute;
+  top: -20px;
+  right: -20px;
+  z-index: 100;
+  width: 40px;
+  height: 40px;
+}
+
 .aviso {
   background: rgba(0, 0, 0, 0.6);
   width: 100%;
@@ -298,6 +330,13 @@ p {
 
 /* Extra Small */
 @media (max-width: 767px) {
+  .modalIntro .modal-dialog {
+    margin: 20% auto 0;
+  }
+  .modalIntro .close {
+    top: -30px;
+    right: 5px;
+  }
   .aviso div {
     margin: 30% auto 0;
     width: 95%;
