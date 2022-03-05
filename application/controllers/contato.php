@@ -29,7 +29,7 @@ class Contato extends CI_Controller{
 
             $this->email->from("contato@nluandaleste.co.ao","Novo Luanda Leste");
             $this->email->to('contacto@novoluandaleste.co.ao');
-            $this->email->cc('renata@spicycomm.com.br, alebertone@spicycomm.com.br, front.baronista@gmail.com, leadsnovoluandaleste@gmai.com');
+            $this->email->cc('renata@spicycomm.com.br, alebertone@spicycomm.com.br, front.baronista@gmail.com, leadsnovoluandalesteangola@gmail.com');
 
             $this->email->subject($assunto);
             $this->email->message("<html xmlns='http://www.w3.org/1999/xhtml' dir='ltr' lang='pt-br'>
