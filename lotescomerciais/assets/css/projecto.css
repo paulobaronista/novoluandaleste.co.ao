@@ -1,0 +1,67 @@
+.projecto {
+  background: url(../images/bg-projecto.jpg) no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+
+.projecto .tt-1 p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 33px;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.projecto .tt-1 p span {
+  font-weight: 700;
+}
+
+.projecto .tt-2 {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.projecto .tt-2 p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 23px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.projecto .tt-2 p span {
+  font-weight: 700;
+}
+
+/* Extra Small */
+@media (max-width: 767px) {
+  .projecto {
+    background: url(../images/bg-projecto-mobile.jpg) no-repeat;
+    background-size: cover;
+    background-position: center top;
+    padding-top: 30px;
+    padding-bottom: 40px;
+  }
+  .projecto .tt-1 p {
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .projecto .tt-2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .projecto .tt-2 p {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
+
+/* Small */
+/* Medium */
+/* Large */
+/*# sourceMappingURL=projecto.css.map */

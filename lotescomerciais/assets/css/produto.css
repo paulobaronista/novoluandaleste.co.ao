@@ -1,0 +1,55 @@
+.produto {
+  background: url(../images/bg-produto.jpg) no-repeat;
+  background-size: cover;
+  background-position: center top;
+  padding-top: 60px;
+  padding-bottom: 30px;
+  margin-top: -0.4%;
+}
+
+.produto .tt-1 p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color: #000000;
+}
+
+.produto .tt-1 p span {
+  font-weight: 800;
+}
+
+.produto .tt-1 .t-1 {
+  font-size: 25px;
+  line-height: 33px;
+  text-transform: uppercase;
+}
+
+.produto .tt-1 .t-2 {
+  font-size: 20px;
+  line-height: 22px;
+  margin-top: 10px;
+}
+
+/* Extra Small */
+@media (max-width: 767px) {
+  .produto {
+    background: url(../images/bg-produto-mobile.jpg) no-repeat;
+    background-size: cover;
+    background-position: center top;
+    padding-top: 30px;
+    margin-top: -1.5%;
+  }
+  .produto .tt-1 .t-1 {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .produto .tt-1 .t-2 {
+    font-size: 11px;
+    line-height: 16px;
+    margin-top: 5px;
+  }
+}
+
+/* Small */
+/* Medium */
+/* Large */
+/*# sourceMappingURL=produto.css.map */

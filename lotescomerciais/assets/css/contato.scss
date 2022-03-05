@@ -1,0 +1,175 @@
+.contato {
+    background: url(../images/bg-contato.jpg) no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    padding-top: 40px;
+    padding-bottom: 50px;
+
+    .tt-1 {
+        p {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 400;
+            color: #000000;
+            font-size: 18px;
+            line-height: 28px;
+            text-transform: uppercase;
+            padding-bottom: 20px;
+
+            span {
+                font-weight: 800;
+            }
+        }
+    }
+
+    .form-group {
+        margin-bottom: 10px;
+    }
+
+    .form-control {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        height: 27px;
+        padding: 22px 12px;
+        font-size: 15px;
+        line-height: 1.42857143;
+        color: #000000;
+        background-color: rgba(255, 255, 255, 0.6);
+        border: 0px solid transparent;
+        border-radius: 0px;
+        box-shadow: none;
+
+        &::-webkit-input-placeholder {
+            color: #000000;
+        }
+
+        &:-ms-input-placeholder {
+            color: #000000;
+        }
+
+        &::placeholder {
+            color: #000000;
+        }
+    }
+
+    textarea {
+        height: 180px !important;
+    }
+
+    .checkbox {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 13px;
+        color: #000000;
+        padding-left: 10px;
+    }
+
+
+    .btn_enviar {
+        background: url(../images/btn-contato.png) no-repeat;
+        background-position: center center;
+        background-size: cover;
+        width: 140px;
+        height: 37px;
+        padding: 0;
+        border: 0px solid transparent;
+        border-radius: 0px;
+        float: right;
+        margin: -16px 0 0 0;
+
+        &:hover,
+        &:active,
+        &:focus {
+            text-decoration: none;
+        }
+    }
+}
+
+.box-contato {
+    width: 324px;
+    position: absolute;
+    top: 90px;
+    right: 15%;
+
+    .btn-contato {
+        display: inline-block;
+        width: 100%;
+        z-index: 100;
+        position: relative;
+
+        a {
+            background-color: #ffffff;
+            float: right;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 13px;
+            line-height: 13px;
+            color: #000000;
+            text-transform: uppercase;
+            padding: 10px 19px;
+            border-radius: 14px;
+            position: relative;
+
+            &:hover,
+            &:active,
+            &:focus {
+                text-decoration: none;
+            }
+
+            img {
+                position: absolute;
+                bottom: -7px;
+                right: 21px;
+            }
+        }
+    }
+}
+
+
+/* Extra Small */
+@media(max-width:767px) {
+    .contato {
+        background: url(../images/bg-contato-mobile.jpg) no-repeat;
+        background-size: cover;
+        background-position: center top;
+        padding-top: 30px;
+
+        .tt-1 {
+            p {
+                font-size: 16px;
+                line-height: 26px;
+                padding-bottom: 20px;
+
+            }
+        }
+
+        .btn_enviar {
+            margin-top: 10px;
+        }
+    }
+
+    .btn-contato {
+        a {
+            background-color: transparent;
+            padding: 20px 19px 15px;
+            font-size: 15px;
+            line-height: 15px;
+            width: 100%;
+            text-align: center;
+
+            img {
+                display: none;
+            }
+        }
+    }
+}
+
+/* Small */
+@media(min-width:768px) and (max-width:991px) {}
+
+/* Medium */
+@media(min-width:992px) and (max-width:1199px) {}
+
+/* Large */
+@media(min-width:1200px) {}

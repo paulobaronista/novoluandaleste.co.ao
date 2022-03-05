@@ -1,0 +1,143 @@
+.investimento {
+    background: url(../images/bg-investimento.jpg) no-repeat;
+    background-size: cover;
+    background-position: center top;
+    padding-top: 60px;
+    padding-bottom: 30px;
+
+
+    .tt-1 {
+        p {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 400;
+            color: #000000;
+
+            span {
+                font-weight: 800;
+            }
+        }
+
+        .t-1 {
+            font-size: 25px;
+            line-height: 33px;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+        }
+
+        .box {
+            padding-left: 15px !important;
+
+            .t-2 {
+                font-size: 16px;
+                line-height: 20px;
+                margin-top: 15px;
+                position: relative;
+
+                &::before {
+                    content: '•';
+                    position: absolute;
+                    left: -15px;
+                    color: #f5a638;
+                    font-size: 45px;
+                    line-height: 10px;
+                }
+            }
+        }
+    }
+}
+
+.afrincorp {
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    img {
+        margin-bottom: 20px;
+    }
+
+    p {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        color: #000000;
+        font-size: 15px;
+        line-height: 20px;
+
+        span {
+            font-weight: 800;
+        }
+    }
+}
+
+.video {
+    .box-video {
+        position: relative;
+        display: block;
+        height: 0;
+        padding: 0 0 56.25% 0;
+        overflow: hidden;
+
+        #player {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+    }
+}
+
+/* Extra Small */
+@media(max-width:767px) {
+
+    .afrincorp {
+        padding-top: 30px;
+        padding-bottom: 30px;
+
+        img {
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 15px;
+            line-height: 20px;
+            text-align: left;
+        }
+    }
+
+    .investimento {
+        background: url(../images/bg-investimento-mobile.jpg) no-repeat;
+        background-size: cover;
+        background-position: center top;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    
+    
+        .tt-1 {
+    
+            .t-1 {
+                font-size: 14px;
+                line-height: 24px;
+                margin-bottom: 10px;
+            }
+    
+            .box {
+    
+                .t-2 {
+                    font-size: 11px;
+                    line-height: 16px;
+                    margin-top: 15px;
+                }
+            }
+        }
+    }
+}
+
+/* Small */
+@media(min-width:768px) and (max-width:991px) {}
+
+/* Medium */
+@media(min-width:992px) and (max-width:1199px) {}
+
+/* Large */
+@media(min-width:1200px) {}
