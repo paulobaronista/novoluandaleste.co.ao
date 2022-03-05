@@ -9,7 +9,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand scrollink" href="http://novoluandaleste.co.ao/lotescomerciais/#home">
+                    <a class="navbar-brand scrollink" href="https://novoluandaleste.co.ao/lotescomerciais/#home">
                         <img class="hidden-xs" src="<?= base_url(); ?>assets/images/logo.png" alt="Novo Luanda Leste">
                     </a>
                 </div>
@@ -20,11 +20,11 @@
                         <a class="youtube" href="https://www.youtube.com/channel/UCws0zqETIptGrnJ_rGNaVbw" target="_blank"></a>
                     </div>
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="http://novoluandaleste.co.ao/lotescomerciais/#home">Home</a></li>
-                        <li><a href="http://novoluandaleste.co.ao/lotescomerciais/#lotescomerciais">LOTES COMERCIAIS</a></li>
-                        <li><a href="http://novoluandaleste.co.ao/lotescomerciais/#investimento">INVESTIMENTO</a></li>
-                        <li><a href="http://novoluandaleste.co.ao/lotescomerciais/#filme">VIDEO</a></li>
-                        <li><a class="link-endereco" href="#contato">CONTATO</a></li>
+                        <li><a href="https://novoluandaleste.co.ao/lotescomerciais/#home">Home</a></li>
+                        <li><a href="https://novoluandaleste.co.ao/lotescomerciais/#lotescomerciais">LOTES COMERCIAIS</a></li>
+                        <li><a href="https://novoluandaleste.co.ao/lotescomerciais/#investimento">INVESTIMENTO</a></li>
+                        <li><a href="https://novoluandaleste.co.ao/lotescomerciais/#filme">VIDEO</a></li>
+                        <li><a class="link-endereco" href="https://novoluandaleste.co.ao/lotescomerciais/#contato">CONTATO</a></li>
                     </ul>
                 </div>
             </div>

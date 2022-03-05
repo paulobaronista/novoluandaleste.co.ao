@@ -1,3 +1,13 @@
+$(document).on('ready', function () {
+    $(".glr-home").slick({
+        dots: true,
+        infinite: true,
+        speed: 500,
+        autoplay: true,
+        autoplaySpeed: 20000,
+    });
+});
+
 $(document).ready(function () {
     $('#cookies').show();
     if (window.localStorage.getItem('accept_cookies')) {

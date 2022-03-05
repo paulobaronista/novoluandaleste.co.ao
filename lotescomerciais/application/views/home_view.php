@@ -133,6 +133,12 @@
 </div>
 
 <div id="filme" class="video">
+    <div class="tt">
+        <p>
+            DEPOIS DO SUCESSO DE TALATONA, NOVO LUANDA LESTE SERÁ<br/>
+            O FUTURO <span>BAIRRO PLANEADO MAIS VALORIZADO</span> DA CIDADE.
+        </p>
+    </div>
     <div class="box-video">
         <div id="player"></div>
         <script>

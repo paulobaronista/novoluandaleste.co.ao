@@ -68,6 +68,35 @@
 }
 
 .video {
+    position: relative;
+
+    .tt {
+        width: 100%;
+        top: 0;
+        left: 0;
+        position: absolute;
+        z-index: 10;
+
+        p {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 400;
+            color: #000000;
+            font-size: 18px;
+            line-height: 24px;
+            display: table;
+            margin: 0 auto;
+            text-transform: uppercase;
+            background-color: #f5a638;
+            text-align: center;
+            padding: 10px 20px;
+
+            span {
+                font-weight: 800;
+            }
+
+        }
+    }
+
     .box-video {
         position: relative;
         display: block;
@@ -89,6 +118,16 @@
 
 /* Extra Small */
 @media(max-width:767px) {
+    .video {
+
+        .tt {
+            p {
+                font-size: 7px;
+                line-height: 12px;
+                padding: 3px 4px;
+            }
+        }
+    }
 
     .afrincorp {
         padding-top: 30px;
@@ -111,18 +150,18 @@
         background-position: center top;
         padding-top: 30px;
         padding-bottom: 30px;
-    
-    
+
+
         .tt-1 {
-    
+
             .t-1 {
                 font-size: 14px;
                 line-height: 24px;
                 margin-bottom: 10px;
             }
-    
+
             .box {
-    
+
                 .t-2 {
                     font-size: 11px;
                     line-height: 16px;
