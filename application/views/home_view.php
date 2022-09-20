@@ -93,6 +93,7 @@
             var firstScriptTag = document.getElementsByTagName('script')[0];
             firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
             var player;
+
             function onYouTubeIframeAPIReady() {
                 player = new YT.Player('player', {
                     height: '100%',
@@ -112,11 +113,13 @@
                     }
                 });
             }
+
             function onPlayerReady(event) {
                 event.target.setVolume(0);
                 event.target.playVideo();
             }
             var done = false;
+
             function onPlayerStateChange(event) {
                 if (event.data == YT.PlayerState.PLAYING && !done) {
                     //      setTimeout(stopVideo, 6000);
@@ -197,9 +200,6 @@
                         </div>
                         <div>
                             <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/galeria-mulher-02.jpg" alt="Novo Luanda Leste">
-                        </div>
-                        <div>
-                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/galeria-mulher-03.jpg" alt="Novo Luanda Leste">
                         </div>
                         <div>
                             <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/galeria-mulher-04.jpg" alt="Novo Luanda Leste">
@@ -367,9 +367,13 @@
                             </label>
                         </div>
                     </div>
+                    <div class="col-xs-12 col-sm-12 col-md-12 form-group">
+                        <div class="g-recaptcha" data-callback="recaptcha_callback" data-sitekey="6Lc1lgghAAAAAHuFLQ4UIbH__GU2wWsIjAB9S9W5" style="transform:scale(0.88);-webkit-transform:scale(0.88);transform-origin:0 0;-webkit-transform-origin:0 0;"></div>
+                    </div>
                 </div>
+
                 <div class="col-xs-12 col-sm-12 col-md-12">
-                    <button type="submit" class="btn_enviar btn" title="enviar" name="enviar_email" value="enviar"></button>
+                    <button type="submit" class="btn_enviar btn" title="enviar" name="enviar_email" value="enviar" disabled></button>
                 </div>
             </div>
         </form>

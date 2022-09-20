@@ -29,7 +29,7 @@ class Contato extends CI_Controller{
 
             $this->email->from("contato@nluandaleste.co.ao","Novo Luanda Leste");
             $this->email->to('contacto@novoluandaleste.co.ao');
-            $this->email->cc('renata@spicycomm.com.br, alebertone@spicycomm.com.br, front.baronista@gmail.com, leadsnovoluandalesteangola@gmail.com, contacto@novoluandaleste.co.ao');
+            $this->email->cc('renata@spicycomm.com.br, alebertone@spicycomm.com.br, front.baronista@gmail.com, leadsnovoluandalesteangola@gmail.com');
 
             $this->email->subject($assunto);
             $this->email->message("<html xmlns='http://www.w3.org/1999/xhtml' dir='ltr' lang='pt-br'>
@@ -43,8 +43,35 @@ class Contato extends CI_Controller{
             Aceito receber informações da Afrincorp: {$checkboxAfrincorp}<br/>
             </body></html>");
 
+            $this->email->send();
+
             if($this->email->send()){
-                redirect('http://novoluandaleste.co.ao/contato/obrigado');
+
+                $secret = "6Lc1lgghAAAAAOimK9CmLM9vnDPjkA4JMja-osu1";
+                $response = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=".$secret."&response=".$_POST['g-recaptcha-response'], false);
+                $response = json_decode($response, true);
+                // prepare post variables
+                $post = [
+                    'secret' => $secret,
+                    'response' => $_POST['g-recaptcha-response'],
+                ];
+
+                $ch = curl_init('https://www.google.com/recaptcha/api/siteverify');
+                curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+                curl_setopt($ch, CURLOPT_POSTFIELDS, $post);
+
+                $response = curl_exec($ch);
+                curl_close($ch);
+
+                //var_dump($response);
+                $response = json_decode($response, true);
+
+                // check result
+                if(isset($response['success']) && $response['success'] == true){
+                    redirect('http://novoluandaleste.co.ao/contato/obrigado');
+                }else{
+                    redirect('http://novoluandaleste.co.ao/contato/fail');
+                }
             }else{
                 redirect('http://novoluandaleste.co.ao/contato/fail');
             }

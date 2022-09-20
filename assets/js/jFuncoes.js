@@ -112,6 +112,10 @@ $(document).ready(function () {
     });
 });
 
+function recaptcha_callback(){
+    $('.btn_enviar').prop("disabled", false);
+}
+
 $(function () {
 	$('.nome').clear();
 	$('.email').clear();

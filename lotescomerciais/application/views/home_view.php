@@ -103,7 +103,7 @@
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-11 col-lg-offset-1">
                 <div class="col-xs-12 padding-off box">
                     <p class="t-2">
-                        PRAIA DA <span>CRYSTAL LAGOONS DE 1,5 HECTARES</span> ENTREGUE EM ATÉ 36 MESES: UM PONTO DE ENCONTRO
+                        PRAIA DA <span>CRYSTAL LAGOONS DE 1,5 HECTARES</span> UM PONTO DE ENCONTRO
                         E ENTRETENIMENTO QUE IRÁ <span>VALORIZAR</span> O SEU NEGÓCIO.
                     </p>
                     <p class="t-2">
@@ -135,7 +135,7 @@
 <div id="filme" class="video">
     <div class="tt">
         <p>
-            DEPOIS DO SUCESSO DE TALATONA, NOVO LUANDA LESTE SERÁ<br/>
+            DEPOIS DO SUCESSO DE TALATONA, NOVO LUANDA LESTE SERÁ<br />
             O FUTURO <span>BAIRRO PLANEADO MAIS VALORIZADO</span> DA CIDADE.
         </p>
     </div>
@@ -240,9 +240,12 @@
                                     </label>
                                 </div>
                             </div>
+                            <div class="col-xs-12 col-sm-12 col-md-12 form-group">
+                                <div class="g-recaptcha" data-callback="recaptcha_callback" data-sitekey="6Lc1lgghAAAAAHuFLQ4UIbH__GU2wWsIjAB9S9W5" style="transform:scale(0.88);-webkit-transform:scale(0.88);transform-origin:0 0;-webkit-transform-origin:0 0;"></div>
+                            </div>
                         </div>
                         <div class="col-xs-12 col-sm-12 col-md-12">
-                            <button type="submit" class="btn_enviar btn" title="enviar" name="enviar_email" value="enviar"></button>
+                            <button type="submit" class="btn_enviar btn" title="enviar" name="enviar_email" value="enviar" disabled></button>
                         </div>
                     </div>
                 </form>

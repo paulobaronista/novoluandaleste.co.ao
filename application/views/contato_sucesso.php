@@ -202,9 +202,6 @@
                             <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/galeria-mulher-02.jpg" alt="Novo Luanda Leste">
                         </div>
                         <div>
-                            <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/galeria-mulher-03.jpg" alt="Novo Luanda Leste">
-                        </div>
-                        <div>
                             <img class="img-responsive center-block" src="<?= base_url(); ?>assets/images/galeria/galeria-mulher-04.jpg" alt="Novo Luanda Leste">
                         </div>
                     </section>

@@ -137,7 +137,7 @@
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-11 col-lg-offset-1">
                 <div class="col-xs-12 padding-off box">
                     <p class="t-2">
-                        PRAIA DA <span>CRYSTAL LAGOONS DE 1,5 HECTARES</span> ENTREGUE EM ATÉ 36 MESES: UM PONTO DE ENCONTRO
+                        PRAIA DA <span>CRYSTAL LAGOONS DE 1,5 HECTARES</span> UM PONTO DE ENCONTRO
                         E ENTRETENIMENTO QUE IRÁ <span>VALORIZAR</span> O SEU NEGÓCIO.
                     </p>
                     <p class="t-2">

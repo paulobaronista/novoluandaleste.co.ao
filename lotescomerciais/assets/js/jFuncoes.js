@@ -86,9 +86,13 @@ $(document).on('ready', function () {
 $(document).ready(function () {
     $("#close").click(function () {
         $("#aviso").hide();
-        window.location.href = "http://novoluandaleste.co.ao/lotescomerciais"
+        window.location.href = "https://novoluandaleste.co.ao/lotescomerciais"
     });
 });
+
+function recaptcha_callback(){
+    $('.btn_enviar').prop("disabled", false);
+}
 
 $(function () {
 	$('.nome').clear();

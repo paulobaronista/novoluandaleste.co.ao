@@ -39,6 +39,7 @@
     echo link_tag('assets/css/slick.css');
     echo link_tag('assets/css/slick-theme.css?v=0.0.6');
     ?>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
 
 <body>
